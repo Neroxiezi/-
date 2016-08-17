@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body{background:lightblue}
+		#water li{
+			list-style: none;
+			float:left;
+		}
+
+		#water li div{
+			background: white;
+			padding:4px;
+			margin: 2px;
+		}
+
+		img{border:2px solid black}
+	</style>
+</head>
+<body>
+	
+</body>
+<script>
+	var pWidth = 220; //定义图片宽度
+	var mark;         //用于记录当前列数 用于判断优化
+	var data;     //用户缓存ajax获取到的数据 在窗口宽度调整的时候重排数据
+	var  timmer;      //用于scroll事件的兼容性解决
+
+	window.onload = function(){
+		mark=cols();
+		addul(mark);
+		loadpic();
+	}
+
+	//当窗口宽度进行调整的时候 重新计算ul的列数
+	window.onresize=function(){
+		var num = cols();
+		//如果计算得出的列数与现有的列数不一致 重新生成页面
+
+		if(mark!=num){
+			var ul = document.getElementById("water");
+			addul(num);
+			process(data);
+			mark=num;
+		}		
+	}
+
+	function cols(){
+		//初始化 计算雷叔
+		var b_width= document.body.offsetWidth-25;
+
+		var num =Math.floor(b_width/pWidth+20);
+		return num;
+	}
+
+	function addul(num){
+		//创建ul元素
+		var oul = document.createElement('ul');
+		oul.setAttribute(oli);
+		//循环产生li
+		for(var i=0;i<num;i++){
+			var oli = document.createElement('li');
+			oul.appendChild(oli);
+		}
+
+		document.body.appendChild(oul);
+	}
+
+	//获取图片
+	function loadpic(){
+		var ajax = getAjax();
+		ajax.open('get','photo.php',true);
+		ajax.send();
+		ajax.onreadystatechange = function(){
+			if(ajax.readyState==4 && ajax.status == 200){
+				data = ajax.responseText;
+
+				//调用方法process() 处理返回数据
+				process(data);
+			}
+		}
+	}
+
+</script>
+</html>
