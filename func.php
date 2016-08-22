@@ -116,8 +116,9 @@
 				return $arr;
 			}
 
-			echo '<pre>';
-				print_r(select_sort($arr));
+
+
+
 
 
 
