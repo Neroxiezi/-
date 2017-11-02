@@ -1,0 +1,64 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "94f3ed56cc108378d0a0780c2db98653",
+    "packages": [
+        {
+            "name": "nancheng/pfinal-array",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Neroxiezi/pfinal-array.git",
+                "reference": "241a1d6123e2932b9f540a4855120df15ca36479"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/Neroxiezi/pfinal-array/241a1d6123e2932b9f540a4855120df15ca36479.zip",
+                "reference": "241a1d6123e2932b9f540a4855120df15ca36479",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "pf\\arr\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "小九",
+                    "email": "Lampxiezi@163.com",
+                    "homepage": "https://neroxiezi.github.io/"
+                }
+            ],
+            "description": "This is a PHP array manipulation middleware",
+            "homepage": "https://github.com/Neroxiezi/pfinal-array",
+            "keywords": [
+                "Q哥",
+                "pfinal",
+                "php-array",
+                "小九"
+            ],
+            "time": "2017-11-02 08:28:27"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "nancheng/pfinal-array": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7376f2b9-9d95-4c2f-a9e6-8692d19d6edb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arr/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7376f2b9-9d95-4c2f-a9e6-8692d19d6edb" name="Default" comment="" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -84,8 +81,8 @@
       <file leaf-file-name="Arr.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/arr/vendor/houdunwang/arr/src/Arr.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="39" column="71" lean-forward="false" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="71" />
+            <state relative-caret-position="514">
+              <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -177,51 +174,6 @@
               <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeSnippet" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeSnippet" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="arr" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeSnippet" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="arr" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeSnippet" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="arr" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="houdunwang" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeSnippet" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="arr" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="houdunwang" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="arr" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeSnippet" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="arr" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="houdunwang" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="arr" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeSnippet" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="arr" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="houdunwang" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="arr" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="build" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -232,7 +184,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
@@ -309,18 +261,17 @@
       <workItem from="1509083640088" duration="1395000" />
       <workItem from="1509529914497" duration="591000" />
       <workItem from="1509540695088" duration="644000" />
-      <workItem from="1509587552422" duration="6313000" />
+      <workItem from="1509587552422" duration="7189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15223000" />
+    <option name="totallyTimeSpent" value="16099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17096774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17096774" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -634,8 +585,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/arr/vendor/houdunwang/arr/src/Arr.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="39" column="71" lean-forward="false" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="71" />
+        <state relative-caret-position="514">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
           <folding />
         </state>
       </provider>

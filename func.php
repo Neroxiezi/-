@@ -7,7 +7,7 @@
 
 	*/
 			//准备一个数组
-			$arr = [1,54,32,45,6,46,78,29,10,23];
+			$arr = [1,54,'a',45,12,'c',1,1,12,[1,1,'a',['a','b','a']]];
 
 			function bSort($arr){
 				//计算数组元素的个数
@@ -117,14 +117,70 @@
 			}
 
 
+            function pf_array_unique($arr) {
+                $dime = array_depth($arr);
+                if($dime <= 1) {
+                    $data =array_unique($arr);
+                } else {
+                    foreach ($arr as $key=>$v) {
+                       if(is_array($v)) {
+                           $new_data = pf_array_unique($v);
+                       } else {
+                           $temp[$key]=$v;
+                       }
+                    }
+                    $data=array_unique($temp);
+                    array_push($data,$new_data);
+                }
+                return $data;
+            }
 
 
 
+            function array_depth($array) {
+                if(!is_array($array)) return 0;
+                $max_depth = 1;
+                foreach ($array as $value) {
+                    if (is_array($value)) {
+                        $depth = array_depth($value) + 1;
+
+                        if ($depth > $max_depth) {
+                            $max_depth = $depth;
+                        }
+                    }
+                }
+                return $max_depth;
+        }
+
+/*$arr1 = pf_array_unique($arr);
+			print_r($arr1);*/
 
 
 
-
-
+            function pf_array_col($array, $columnKey, $indexKey = null)
+{
+                $result = array();
+                if(!empty($array)) {
+                    if (!function_exists('array_column')) {
+                        foreach ($array as $val) {
+                            if (!is_array($val)) {
+                                continue;
+                            } elseif (is_null($indexKey) && array_key_exists($columnKey, $val)) {
+                                $result[] = $val[$columnKey];
+                            } elseif (array_key_exists($indexKey, $val)) {
+                                if (is_null($columnKey)) {
+                                    $result[$val[$indexKey]] = $val;
+                                } elseif (array_key_exists($columnKey, $val)) {
+                                    $result[$val[$indexKey]] = $val[$columnKey];
+                                }
+                            }
+                        }
+                    } else {
+                        $result = array_column($array, $columnKey, $indexKey);
+                    }
+                }
+                return $result;
+            }
 
 
 

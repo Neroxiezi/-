@@ -57,3 +57,4 @@ function injCheck($sql_str) {
         return $sql_str;
     }
 }
+
