@@ -7,3 +7,4 @@
 * Memcache 技术笔记*
 * city 全国城市按照字母排序
 * php_encrypthing 增加PHP加密算法
+* 1.php  提取网页的关键字
