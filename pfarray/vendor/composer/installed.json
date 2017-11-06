@@ -6,18 +6,18 @@
         "source": {
             "type": "git",
             "url": "https://github.com/Neroxiezi/pfinal-array.git",
-            "reference": "241a1d6123e2932b9f540a4855120df15ca36479"
+            "reference": "54702c32b3880df70db35fa9094857cc4706a22d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://files.phpcomposer.com/files/Neroxiezi/pfinal-array/241a1d6123e2932b9f540a4855120df15ca36479.zip",
-            "reference": "241a1d6123e2932b9f540a4855120df15ca36479",
+            "url": "https://files.phpcomposer.com/files/Neroxiezi/pfinal-array/54702c32b3880df70db35fa9094857cc4706a22d.zip",
+            "reference": "54702c32b3880df70db35fa9094857cc4706a22d",
             "shasum": ""
         },
         "require": {
             "php": ">=5.4.0"
         },
-        "time": "2017-11-02T08:28:27+00:00",
+        "time": "2017-11-02T09:33:56+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {

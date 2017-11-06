@@ -1,10 +1,19 @@
 <?php
-include './PFArrFormat.php';
-class Base {
-    use pf\arr\build\PFArrFormat;
-}
 
-$base = new Base();
+echo 'c' ^ 'b';
 
-var_dump($base->pf_encode([1,2,3]));
+/* echo 'b'; */
+/*
+    echo 'b' ^ 'e';
 
+    echo '' ^ 'f';
+
+    echo 'g';
+
+    echo '' ^ 'e';
+    echo 'g' ^ 'f';
+    echo 'b';
+
+    echo 'a' ^ 'b';
+
+*/

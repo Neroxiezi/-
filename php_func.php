@@ -58,3 +58,90 @@ function injCheck($sql_str) {
     }
 }
 
+//简单bese64 加密算法
+function encode($string = '', $skey = 'cxphp') {
+    $strArr = str_split(base64_encode($string));
+    $strCount = count($strArr);
+    foreach (str_split($skey) as $key => $value){
+        $key < $strCount && $strArr[$key].=$value;
+    }
+    return str_replace(array('=', '+', '/'), array('O0O0O', 'o000o', 'oo00o'), implode('', $strArr));
+}
+
+function decode($string = '', $skey = 'cxphp') {
+    $strArr = str_split(str_replace(array('O0O0O', 'o000o', 'oo00o'), array('=', '+', '/'), $string), 2);
+    $strCount = count($strArr);
+    foreach (str_split($skey) as $key => $value){
+        $key <= $strCount  && isset($strArr[$key]) && $strArr[$key][1] === $value && $strArr[$key] = $strArr[$key][0];
+    }
+
+    return base64_decode(join('', $strArr));
+}
+
+class mycrypt {
+
+    public $pubkey;
+    public $privkey;
+
+    function __construct() {
+        $this->pubkey = file_get_contents('./public.key');
+        $this->privkey = file_get_contents('./private.key');
+    }
+
+    public function encrypt($data) {
+        if (openssl_public_encrypt($data, $encrypted, $this->pubkey))
+            $data = base64_encode($encrypted);
+        else
+            throw new Exception('Unable to encrypt data. Perhaps it is bigger than the key size?');
+
+        return $data;
+    }
+    public function decrypt($data) {
+        if (openssl_private_decrypt(base64_decode($data), $decrypted, $this->privkey))
+            $data = $decrypted;
+        else
+            $data = '';
+        return $data;
+    }
+}
+
+
+
+//加密函数
+function passport_encrypt($txt, $key) {
+    $encrypt_key = md5(rand(0, 32000));
+    $ctr = 0;
+    $tmp = '';
+    for($i = 0;$i < strlen($txt); $i++) {
+        $ctr = $ctr == strlen($encrypt_key) ? 0 : $ctr;
+        $tmp .= $encrypt_key[$ctr].($txt[$i] ^ $encrypt_key[$ctr++]);
+    }
+    //var_dump(passport_key($tmp, $key));exit;
+    return base64_encode(passport_key($tmp, $key));
+}
+//解密函数
+function passport_decrypt($txt, $key) {
+    $txt = passport_key(base64_decode($txt), $key);
+
+    $tmp = '';
+    for($i = 0;$i < strlen($txt); $i++) {
+        $md5 = $txt[$i];
+        $tmp .= $txt[++$i] ^ $md5;
+    }
+    return $tmp;
+}
+
+function passport_key($txt, $encrypt_key) {
+    $encrypt_key = md5($encrypt_key);
+    $ctr = 0;
+    $tmp = '';
+    for($i = 0; $i < strlen($txt); $i++) {
+        $ctr = $ctr == strlen($encrypt_key) ? 0 : $ctr;
+        $tmp .= $txt[$i] ^ $encrypt_key[$ctr++];
+    }
+    return $tmp;
+}
+
+?>
+
+
