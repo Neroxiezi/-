@@ -6,3 +6,4 @@
 * curl 模拟post或者get请求*#
 * Memcache 技术笔记*
 * city 全国城市按照字母排序
+* php_encrypthing 增加PHP加密算法
