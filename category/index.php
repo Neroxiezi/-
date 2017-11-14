@@ -35,10 +35,10 @@
 	$list=$model->find($sql);
 
 	$str="
-	<a href=".ADMIN_URL."/category/index.php?pid=$pid>首页</a>
-	<a href=".ADMIN_URL."/category/index.php?pid=$pid&p=$prev>上一页</a>
-	<a href=".ADMIN_URL."/category/index.php?pid=$pid&p=$next>下一页</a>
-	<a href=".ADMIN_URL."/category/index.php?pid=$pid&p=$pages>尾页</a>
+	<a href=".ADMIN_URL."/category/miaosha_on_goods.php?pid=$pid>首页</a>
+	<a href=".ADMIN_URL."/category/miaosha_on_goods.php?pid=$pid&p=$prev>上一页</a>
+	<a href=".ADMIN_URL."/category/miaosha_on_goods.php?pid=$pid&p=$next>下一页</a>
+	<a href=".ADMIN_URL."/category/miaosha_on_goods.php?pid=$pid&p=$pages>尾页</a>
 	";
  ?>
  <div class="main_right fr">

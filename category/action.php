@@ -24,7 +24,7 @@
 			$res= $model->add($data);
 			if($res)
 			{
-				success('插入成功',ADMIN_URL.'/category/index.php',2);
+				success('插入成功',ADMIN_URL.'/category/miaosha.php',2);
 				return false;
 			}
 			break;
@@ -46,7 +46,7 @@
 
 			$res = $model->update($data,$where);
 			if($res){
-				header('location:'.ADMIN_URL.'/category/index.php?pid='.$pid);
+				header('location:'.ADMIN_URL.'/category/miaosha.php?pid='.$pid);
 			}
 			break;
 
@@ -63,7 +63,7 @@
 				}else
 				{
 					$res1=$model->del($id);
-					success('删除成功',ADMIN_URL.'/category/index.php',1);
+					success('删除成功',ADMIN_URL.'/category/miaosha.php',1);
 					return false; 
 				}
 	}

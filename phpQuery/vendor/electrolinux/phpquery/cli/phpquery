@@ -6,7 +6,7 @@ if (!isset($argv[1]) || $argv[1] == 'help' || $argv[1] == '--help' || $argv[1] =
 Example: 
   phpquery 'http://localhost' --find 'div > p' --contents
 Pipe: 
-  cat index.html | phpquery --find 'div > p' --contents
+  cat miaosha_on_goods.php | phpquery --find 'div > p' --contents
 Docs: 
   http://code.google.com/p/phpquery/wiki/\n");
 /* ALL-IN-ONE-SECTION-START */
