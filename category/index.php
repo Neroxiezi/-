@@ -75,7 +75,7 @@
 					<td><?php echo $value['path'] ?></td>
 					<td>
 						<?php 
-							echo $value['status']?'<a href="'.ADMIN_URL.'/category/action.php?a=up&id='.$value['id'].'"><img style="display:block;border-radius:60px;" src="'.URL.'/public/img/dui.png"></a>':'<a href="'.ADMIN_URL.'/category/action.php?a=up&id='.$value['id'].'"><img style="display:block;border-radius:60px;" src="'.URL.'/public/img/x.png"></a>';
+							echo $value['status']?'<a href="'.ADMIN_URL.'/category/ActionController.php?a=up&id='.$value['id'].'"><img style="display:block;border-radius:60px;" src="'.URL.'/public/img/dui.png"></a>':'<a href="'.ADMIN_URL.'/category/ActionController.php?a=up&id='.$value['id'].'"><img style="display:block;border-radius:60px;" src="'.URL.'/public/img/x.png"></a>';
 						?>
 
 					</td>
