@@ -142,6 +142,62 @@ function passport_key($txt, $encrypt_key) {
     return $tmp;
 }
 
+//获取用户端URL
+function current_url()
+{
+    $url = $_SERVER['REQUEST_SCHEME'] . "://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+    $validURL = str_replace("&", "&", $url);
+    return $validURL;
+}
+
+echo current_url();
+
+// 搜索 和高亮 字符串中的关键字
+function highlighter_text($text, $words)
+{
+    $split_words = explode(" ", $words);
+    foreach ($split_words as $word) {
+        $color = "#4285F4";
+        $text = preg_replace("|($word)|Ui",
+            "<span style=\"color:" . $color . ";\"><b>$1</b></span>", $text);
+    }
+    return $text;
+}
+
+$string = "I like chocolates and I like apples";
+$words = "a";
+echo highlighter_text($string, $words);
+
+//检测URL 是否正确
+function isvalidURL($url)
+{
+    $check = 0;
+    if (filter_var($url, FILTER_VALIDATE_URL) !== false) {
+        $check = 1;
+    }
+    return $check;
+}
+
+$url = "http://koonk.com";
+$check = isvalidURL($url);
+echo $check;
+
+// 计算两个坐标之间的距离
+function getDistanceBetweenPointsNew($latitude1, $longitude1, $latitude2, $longitude2)
+{
+    $theta = $longitude1 - $longitude2;
+    $miles = (sin(deg2rad($latitude1)) * sin(deg2rad($latitude2))) + (cos(deg2rad($latitude1)) * cos(deg2rad($latitude2)) * cos(deg2rad($theta)));
+    $miles = acos($miles);
+    $miles = rad2deg($miles);
+    $miles = $miles * 60 * 1.1515;
+    $feet = $miles * 5280;
+    $yards = $feet / 3;
+    $kilometers = $miles * 1.609344;
+    $meters = $kilometers * 1000;
+    return compact('miles', 'feet', 'yards', 'kilometers', 'meters');
+}
+
+
 ?>
 
 
