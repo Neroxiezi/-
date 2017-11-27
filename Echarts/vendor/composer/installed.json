@@ -1,0 +1,49 @@
+[
+    {
+        "name": "hisune/echarts-php",
+        "version": "1.0.10",
+        "version_normalized": "1.0.10.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hisune/Echarts-PHP.git",
+            "reference": "46f3f3b689eb737ab4c0e85e615466234ae78ddd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/hisune/Echarts-PHP/46f3f3b689eb737ab4c0e85e615466234ae78ddd.zip",
+            "reference": "46f3f3b689eb737ab4c0e85e615466234ae78ddd",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-03-31T06:44:15+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Hisune\\EchartsPHP\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Hisune",
+                "email": "hi@hisune.com",
+                "homepage": "http://hisune.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "A php wrapper for echarts javascript libraries",
+        "homepage": "http://hisune.com",
+        "keywords": [
+            "charts",
+            "echarts",
+            "javascript",
+            "php"
+        ]
+    }
+]
