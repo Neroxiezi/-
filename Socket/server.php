@@ -14,7 +14,7 @@ class WS
         socket_listen($this->master, 2) or die('大爷的故事');
         $this->sockets[] = $this->master;
 
-        // debug
+        // debug 
         echo("Master socket  : " . $this->master . "\n");
         while (true) {
             $write = NULL;
