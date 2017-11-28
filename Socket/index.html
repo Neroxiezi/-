@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>简单的聊天系统</title>
+    <script src="./public/js/jquery.js"></script>
+</head>
+<body>
+<button  type="button" onclick='ToggleConnectionClicked();'>连接服务器</button><br /><br />
+<textarea id="content" ></textarea>
+<button  type="button" onclick='SendData();'>发送我的名字：beston</button><br /><br />
+<button  type="button" onclick='seestate();'>查看状态</button><br /><br />
+<script type="text/javascript">
+    var ws;
+
+    function ToggleConnectionClicked() {
+        try {
+            ws = new WebSocket("ws://127.0.0.1:2000");//连接服务器
+            alert(ws);
+            ws.onopen = function (event) {
+                alert("已经与服务器建立了连接\r\n当前连接状态：" + this.readyState);
+            };
+            ws.onmessage = function (event) {
+                alert("接收到服务器发送的数据：\r\n" + event.data);
+            };
+            ws.onclose = function (event) {
+                alert("已经与服务器断开连接\r\n当前连接状态：" + this.readyState);
+            };
+            ws.onerror = function (event) {
+                alert("WebSocket异常！");
+            };
+        } catch (ex) {
+            alert(ex.message);
+        }
+    };
+
+    function SendData() {
+        try {
+            var content = document.getElementById("content").value;
+            if (content) {
+                ws.send(content);
+            }
+
+        } catch (ex) {
+            alert(ex.message);
+        }
+    };
+
+    function seestate() {
+        alert(ws.readyState);
+    }
+
+</script>
+
+</body>
+</html>
