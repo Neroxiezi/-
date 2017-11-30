@@ -121,5 +121,8 @@ Class rndChinaName
 }
 header('Content-type:text/html; charset=utf-8');
 $name_obj = new rndChinaName();
-$name = $name_obj->getName(2);
-echo $name;
+
+for ($i=0;$i<10;$i++) {
+    $name = $name_obj->getName(2);
+    echo $name.'<br>';
+}
