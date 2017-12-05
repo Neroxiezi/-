@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: 运营部
- * Date: 2017/12/4
- * Time: 17:58
- */
+
 header("Content-type: text/html; charset=utf-8");
 require_once './vendor/autoload.php';
 /**
