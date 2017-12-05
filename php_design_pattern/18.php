@@ -69,7 +69,59 @@ class SubCompany extends Company
 class Dept extends Company
 {
     //添加节点名称
-    
+    public function __construct($name)
+    {
+        parent::__construct($name);
+    }
+
+    // 增加一个节点对象
+    public function Add($company)
+    {
+        echo '叶子节点,不给你再添加节点....';
+    }
+    //删除一个节点对象
+    public function Delete($company)
+    {
+      echo '叶子节点 不给你删除节点';
+    }
+
+    // 打印对象组合
+    public function Dump($length){
+        $hr =  '├';
+        for ($i=0; $i<$length; $i++){
+            $hr .= "─";
+        }
+        echo $hr.$this->name. "<br/>";
+    }
 }
 
+# 创建一级根节点
+$root = new SubCompany('总部');
+$root->Add(new Dept("财务部"));
+$root->Add(new Dept("技术部"));
+$root->Add(new Dept("商务部"));
+$root->Add(new Dept("采购部"));
+$root->Dump();
+echo '<br/>';
+# 创建二级节点，实际上在没有关联到总部之前，分公司还是一级节点
+$guangzhou = new SubCompany('广州分公司');
+$guangzhou->Add(new Dept("分公司财务部"));
+$guangzhou->Add(new Dept("分公司技术部"));
+$guangzhou->Add(new Dept("分公司商务部"));
+$guangzhou->Add(new Dept("分公司采购部"));
+$guangzhou->Dump();
+echo '<br/>';
+# 向一级节点关联二级节点
+$root->Add($guangzhou);
+
+$shanghai = new SubCompany('上海分公司');
+$shanghai->Add(new Dept("分公司财务部"));
+$shanghai->Add(new Dept("分公司技术部"));
+$shanghai->Add(new Dept("分公司商务部"));
+$shanghai->Add(new Dept("分公司采购部"));
+$shanghai->Dump();
+echo '<br/>';
+# 向一级节点关联二级节点
+$root->Add($shanghai);
+$root->Dump();
 
