@@ -24,9 +24,8 @@
 * city 全国城市按照字母排序
 * php_encrypthing 增加PHP加密算法
 * 1.php  提取网页的关键字
-* PHPUnit php单元测试框架学习
-
 * php_design_pattern  PHP26种设计模式学习
+* PHP7.1——new PHP7.1新特性学习
     
     
 
