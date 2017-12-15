@@ -26,6 +26,7 @@
 * 1.php  提取网页的关键字
 * php_design_pattern  PHP26种设计模式学习
 * PHP7.1——new PHP7.1新特性学习
+* php_big_file  PHP大文件切片上传
     
     
 
