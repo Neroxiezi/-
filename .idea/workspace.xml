@@ -2,15 +2,124 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7376f2b9-9d95-4c2f-a9e6-8692d19d6edb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHP7.1_new/1.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHP7.1_new/2.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHP7.1_new/3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHP7.1_new/4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHP7.1_new/5.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHP7.1_new/6.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHP7.1_new/7.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PHP7.1_new/README.MD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/CodeSnippet.iml" afterPath="$PROJECT_DIR$/.idea/CodeSnippet.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prize/index.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/demo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/composer/ClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/composer/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/composer/autoload_classmap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/composer/autoload_namespaces.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/composer/autoload_psr4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/composer/autoload_real.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/composer/autoload_static.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/composer/installed.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/.idea/php.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/.idea/phpquery-git.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/classtrees_phpQuery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/elementindex.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/elementindex_phpQuery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/errors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/li_phpQuery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/media/background.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/media/empty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/media/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/phpQuery/Callback.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/phpQuery/CallbackParam.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/phpQuery/CallbackReference.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/phpQuery/DOMDocumentWrapper.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/phpQuery/DOMEvent.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/phpQuery/_Callback.php.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/phpQuery/_DOMDocumentWrapper.php.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/phpQuery/_DOMEvent.php.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/phpQuery/_phpQuery.php.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/phpQuery/_phpQueryEvents.php.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/phpQuery/_phpQueryObject.php.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/phpQuery/phpQuery.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/phpQuery/phpQueryEvents.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/phpQuery/phpQueryObject.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/phpQuery/phpQueryPlugins.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/api-reference/todolist.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/cli/phpquery" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/demo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/jQueryServer/demo/demo.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/jQueryServer/demo/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/jQueryServer/jQueryServer.config.php.example" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/jQueryServer/jQueryServer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/jQueryServer/jQueryServer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/phpQuery/phpQuery.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/phpQuery/phpQuery/Callback.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/phpQuery/phpQuery/DOMDocumentWrapper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/phpQuery/phpQuery/DOMEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/phpQuery/phpQuery/bootstrap.example.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/phpQuery/phpQuery/compat/mbstring.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/phpQuery/phpQuery/phpQueryEvents.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/phpQuery/phpQuery/phpQueryObject.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/phpQuery/phpQuery/plugins/Scripts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/phpQuery/phpQuery/plugins/Scripts/__config.example.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/phpQuery/phpQuery/plugins/Scripts/example.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/phpQuery/phpQuery/plugins/Scripts/fix_webroot.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/phpQuery/phpQuery/plugins/Scripts/google_login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/phpQuery/phpQuery/plugins/Scripts/print_source.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/phpQuery/phpQuery/plugins/Scripts/print_websafe.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/phpQuery/phpQuery/plugins/WebBrowser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/phpQuery/phpQuery/plugins/example.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/document-types/document-fragment-utf8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/document-types/document-fragment-utf8.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/document-types/document-fragment-utf8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/document-types/document-iso88592-nocharset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/document-types/document-iso88592-nocharset.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/document-types/document-iso88592-nocharset.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/document-types/document-iso88592.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/document-types/document-iso88592.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/document-types/document-iso88592.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/document-types/document-utf8-nocharset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/document-types/document-utf8-nocharset.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/document-types/document-utf8-nocharset.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/document-types/document-utf8.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/document-types/document-utf8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/document-types/document-utf8.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/document-types/document-utf8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/document_types.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/run.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_ajax.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_ajax_data_1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_arrayaccess.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_attr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_callback.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_charset.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_document.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_events.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_insert.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_manipulation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_manual.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_multidoc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_php.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_replace.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_scripts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_selectors.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_webbrowser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/test_wrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/test-cases/xpath.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/unit-tests/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/phpQuery/vendor/electrolinux/phpquery/unit-tests/test.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
@@ -29,98 +138,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="560">
-                <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP7.1_new/1.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/prize/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+            <state relative-caret-position="-86">
+              <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP7.1_new/2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP7.1_new/3.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="21" lean-forward="false" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="4.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP7.1_new/4.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP7.1_new/5.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="6.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP7.1_new/6.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="7.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PHP7.1_new/7.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.MD" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP7.1_new/README.MD">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -163,6 +186,7 @@
         <option value="$PROJECT_DIR$/PHP7.1_new/5.php" />
         <option value="$PROJECT_DIR$/PHP7.1_new/6.php" />
         <option value="$PROJECT_DIR$/PHP7.1_new/7.php" />
+        <option value="$PROJECT_DIR$/prize/index.php" />
       </list>
     </option>
   </component>
@@ -192,7 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -201,20 +224,16 @@
               <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeSnippet" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeSnippet" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="PHP7.1_new" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../myblog/neroxiezi.github.io" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../pack" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
@@ -295,17 +314,18 @@
       <workItem from="1512033387425" duration="565000" />
       <workItem from="1513303211893" duration="1171000" />
       <workItem from="1513306166699" duration="480000" />
+      <workItem from="1513583329673" duration="2708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18315000" />
+    <option name="totallyTimeSpent" value="21023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17580645" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17741935" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -343,14 +363,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PHP7.1_new/2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHP7.1_new/3.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -465,31 +477,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpQuery/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phpQuery/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpQuery/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpQuery/demo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -587,18 +578,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="560">
-            <caret line="28" column="34" lean-forward="false" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <first_editor relative-caret-position="0">
+            <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -634,10 +625,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP7.1_new/5.php">
+    <entry file="file://$PROJECT_DIR$/PHP7.1_new/7.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        <state relative-caret-position="300">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -646,6 +637,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP7.1_new/5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -661,10 +660,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP7.1_new/7.php">
+    <entry file="file://$PROJECT_DIR$/phpQuery/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="100">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpQuery/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpQuery/demo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prize/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
           <folding />
         </state>
       </provider>
