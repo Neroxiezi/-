@@ -205,7 +205,7 @@ class Tool{
      */
     public static function show($arr) {
         echo '<pre>';
-        var_dump($arr);
+        print_r($arr);
         echo '</pre>';
     }
 
