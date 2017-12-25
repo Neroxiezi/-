@@ -6,29 +6,36 @@
 
 // 生成随机字符串
 
-function rand_str($len =10) {
+function rand_str($len = 10)
+{
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-    $str = substr(str_shuffle($characters),0,$len);
+    $str = substr(str_shuffle($characters), 0, $len);
     return $str;
 }
+
 /*echo rand_str(4);*/
 //获取当前页面的url
-function curPageURL() {
+function curPageURL()
+{
     $pageURL = 'http';
-    if (!empty($_SERVER['HTTPS'])) {$pageURL .= "s";}
+    if (!empty($_SERVER['HTTPS'])) {
+        $pageURL .= "s";
+    }
     $pageURL .= "://";
     if ($_SERVER["SERVER_PORT"] != "80") {
-        $pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
+        $pageURL .= $_SERVER["SERVER_NAME"] . ":" . $_SERVER["SERVER_PORT"] . $_SERVER["REQUEST_URI"];
     } else {
-        $pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
+        $pageURL .= $_SERVER["SERVER_NAME"] . $_SERVER["REQUEST_URI"];
     }
     return $pageURL;
 }
+
 /*
 echo curPageURL();*/
 
 //获取用户的真实IP
-function getIp() {
+function getIp()
+{
     if (getenv("HTTP_CLIENT_IP") && strcasecmp(getenv("HTTP_CLIENT_IP"), "unknown"))
         $ip = getenv("HTTP_CLIENT_IP");
     else
@@ -48,7 +55,8 @@ function getIp() {
 //echo getIp();
 
 // 防止sql注入
-function injCheck($sql_str) {
+function injCheck($sql_str)
+{
     $check = preg_match('/select|insert|update|delete|\'|\/\*|\*|\.\.\/|\.\/|union|into|load_file|outfile/', $sql_str);
     if ($check) {
         echo '非法字符！！';
@@ -59,36 +67,41 @@ function injCheck($sql_str) {
 }
 
 //简单bese64 加密算法
-function encode($string = '', $skey = 'cxphp') {
+function encode($string = '', $skey = 'cxphp')
+{
     $strArr = str_split(base64_encode($string));
     $strCount = count($strArr);
-    foreach (str_split($skey) as $key => $value){
-        $key < $strCount && $strArr[$key].=$value;
+    foreach (str_split($skey) as $key => $value) {
+        $key < $strCount && $strArr[$key] .= $value;
     }
     return str_replace(array('=', '+', '/'), array('O0O0O', 'o000o', 'oo00o'), implode('', $strArr));
 }
 
-function decode($string = '', $skey = 'cxphp') {
+function decode($string = '', $skey = 'cxphp')
+{
     $strArr = str_split(str_replace(array('O0O0O', 'o000o', 'oo00o'), array('=', '+', '/'), $string), 2);
     $strCount = count($strArr);
-    foreach (str_split($skey) as $key => $value){
-        $key <= $strCount  && isset($strArr[$key]) && $strArr[$key][1] === $value && $strArr[$key] = $strArr[$key][0];
+    foreach (str_split($skey) as $key => $value) {
+        $key <= $strCount && isset($strArr[$key]) && $strArr[$key][1] === $value && $strArr[$key] = $strArr[$key][0];
     }
 
     return base64_decode(join('', $strArr));
 }
 
-class mycrypt {
+class mycrypt
+{
 
     public $pubkey;
     public $privkey;
 
-    function __construct() {
+    function __construct()
+    {
         $this->pubkey = file_get_contents('./public.key');
         $this->privkey = file_get_contents('./private.key');
     }
 
-    public function encrypt($data) {
+    public function encrypt($data)
+    {
         if (openssl_public_encrypt($data, $encrypted, $this->pubkey))
             $data = base64_encode($encrypted);
         else
@@ -96,7 +109,9 @@ class mycrypt {
 
         return $data;
     }
-    public function decrypt($data) {
+
+    public function decrypt($data)
+    {
         if (openssl_private_decrypt(base64_decode($data), $decrypted, $this->privkey))
             $data = $decrypted;
         else
@@ -106,36 +121,39 @@ class mycrypt {
 }
 
 
-
 //加密函数
-function passport_encrypt($txt, $key) {
+function passport_encrypt($txt, $key)
+{
     $encrypt_key = md5(rand(0, 32000));
     $ctr = 0;
     $tmp = '';
-    for($i = 0;$i < strlen($txt); $i++) {
+    for ($i = 0; $i < strlen($txt); $i++) {
         $ctr = $ctr == strlen($encrypt_key) ? 0 : $ctr;
-        $tmp .= $encrypt_key[$ctr].($txt[$i] ^ $encrypt_key[$ctr++]);
+        $tmp .= $encrypt_key[$ctr] . ($txt[$i] ^ $encrypt_key[$ctr++]);
     }
     //var_dump(passport_key($tmp, $key));exit;
     return base64_encode(passport_key($tmp, $key));
 }
+
 //解密函数
-function passport_decrypt($txt, $key) {
+function passport_decrypt($txt, $key)
+{
     $txt = passport_key(base64_decode($txt), $key);
 
     $tmp = '';
-    for($i = 0;$i < strlen($txt); $i++) {
+    for ($i = 0; $i < strlen($txt); $i++) {
         $md5 = $txt[$i];
         $tmp .= $txt[++$i] ^ $md5;
     }
     return $tmp;
 }
 
-function passport_key($txt, $encrypt_key) {
+function passport_key($txt, $encrypt_key)
+{
     $encrypt_key = md5($encrypt_key);
     $ctr = 0;
     $tmp = '';
-    for($i = 0; $i < strlen($txt); $i++) {
+    for ($i = 0; $i < strlen($txt); $i++) {
         $ctr = $ctr == strlen($encrypt_key) ? 0 : $ctr;
         $tmp .= $txt[$i] ^ $encrypt_key[$ctr++];
     }
@@ -150,7 +168,6 @@ function current_url()
     return $validURL;
 }
 
-echo current_url();
 
 // 搜索 和高亮 字符串中的关键字
 function highlighter_text($text, $words)
@@ -164,9 +181,6 @@ function highlighter_text($text, $words)
     return $text;
 }
 
-$string = "I like chocolates and I like apples";
-$words = "a";
-echo highlighter_text($string, $words);
 
 //检测URL 是否正确
 function isvalidURL($url)
@@ -178,9 +192,6 @@ function isvalidURL($url)
     return $check;
 }
 
-$url = "http://koonk.com";
-$check = isvalidURL($url);
-echo $check;
 
 // 计算两个坐标之间的距离
 function getDistanceBetweenPointsNew($latitude1, $longitude1, $latitude2, $longitude2)
@@ -197,7 +208,57 @@ function getDistanceBetweenPointsNew($latitude1, $longitude1, $latitude2, $longi
     return compact('miles', 'feet', 'yards', 'kilometers', 'meters');
 }
 
+/**
+ * 检测用户位置
+ * @param $ip
+ * @return string
+ */
+function detect_city($ip)
+{
 
-?>
+    $default = 'UNKNOWN';
+    $curlopt_useragent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6 (.NET CLR 3.5.30729)';
+
+    $url = 'http://ipinfodb.com/ip_locator.php?ip=' . urlencode($ip);
+    $ch = curl_init();
+
+    $curl_opt = array(
+        CURLOPT_FOLLOWLOCATION => 1,
+        CURLOPT_HEADER => 0,
+        CURLOPT_RETURNTRANSFER => 1,
+        CURLOPT_USERAGENT => $curlopt_useragent,
+        CURLOPT_URL => $url,
+        CURLOPT_TIMEOUT => 1,
+        CURLOPT_REFERER => 'http://' . $_SERVER['HTTP_HOST'],
+    );
+
+    curl_setopt_array($ch, $curl_opt);
+
+    $content = curl_exec($ch);
+    if (!is_null($content)) {
+        $curl_info = curl_getinfo($ch);
+    }
+
+    curl_close($ch);
+    $city = '';
+    if (preg_match('{<li>City : ([^<]*)</li>}i', $content, $regs)) {
+        $city = $regs[1];
+    }
+    if (preg_match('{<li>State/Province : ([^<]*)</li>}i', $content, $regs)) {
+        $state = $regs[1];
+    }
+
+    if ($city != '' && $state != '') {
+        $location = $city . ', ' . $state;
+        return $location;
+    } else {
+        return $default;
+    }
+}
+
+
+
+
+
 
 
