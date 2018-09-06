@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./hdjs/require.js"></script>
+</head>
+<body>
+    <script type="text/javascript">
+            require(['_math'],function(ccc){
+                console.log(ccc.name)
+                console.log(ccc.add(111,222));
+            })
+
+            require.config({
+                paths:{
+                    'mymath':'1_math'
+                }
+            })
+
+            require(['mymath'],function(math){
+                console.log(math.sub(222,111))
+            })
+            // require(['1_math'],function(math){
+            //     console.log(math.sub(222,111))
+            // })
+    </script>
+</body>
+</html>
