@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./hdjs/require.js"></script>
+</head>
+<body>
+    <input type="text" id="demo">
+    <script type="text/javascript">
+        require.config({
+            paths: {
+                "jquery" : ["http://libs.baidu.com/jquery/2.0.3/jquery"],
+                "a" : "_math"      
+            }
+        })
+        
+        require(["jquery","a"],function($,_a){
+            console.log(_a.add(1,2))
+            $("#demo").val(_a.add(1,1))
+        })
+        
+    </script>
+</body>
+</html>
