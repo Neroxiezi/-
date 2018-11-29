@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PhpIncludePathManager">
-    <include_path>
-      <path value="$PROJECT_DIR$/php_design_pattern/vendor/nancheng/pfinal-array" />
-      <path value="$PROJECT_DIR$/php_design_pattern/vendor/composer" />
-    </include_path>
-  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
 </project>
