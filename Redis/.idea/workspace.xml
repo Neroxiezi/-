@@ -74,11 +74,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="redis_pessimistic.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="redis_pessimistic.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/redis_pessimistic.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="46" column="29" lean-forward="false" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+            <state relative-caret-position="474">
+              <caret line="55" column="3" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="56" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redis_optimistic.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/redis_optimistic.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="45" column="3" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -98,6 +108,7 @@
         <option value="$PROJECT_DIR$/redis_publish.php" />
         <option value="$PROJECT_DIR$/redis_subscribe.php" />
         <option value="$PROJECT_DIR$/redis_pessimistic.php" />
+        <option value="$PROJECT_DIR$/redis_optimistic.php" />
       </list>
     </option>
   </component>
@@ -177,12 +188,12 @@
       <updated>1545016669959</updated>
       <workItem from="1545016671336" duration="4874000" />
       <workItem from="1545026431591" duration="1000000" />
-      <workItem from="1545037143419" duration="3010000" />
+      <workItem from="1545037143419" duration="3366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8884000" />
+    <option name="totallyTimeSpent" value="9240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -357,8 +368,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/redis_pessimistic.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="46" column="29" lean-forward="false" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
+        <state relative-caret-position="474">
+          <caret line="55" column="3" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="56" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis_optimistic.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="45" column="3" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
           <folding />
         </state>
       </provider>
