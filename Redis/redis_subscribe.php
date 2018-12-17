@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: 运营部
  * Date: 2018/12/17
- * Time: 12:38
+ * Time: 17:06
  *
  *
  *                      _ooOoo_
@@ -27,14 +27,32 @@
  *  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  *           佛祖保佑       永无BUG     永不修改
  *
- *
- *  出队列 执行操作
- *
  */
+
+ini_set('default_socket_timeout', -1);
 $redis = new Redis();
 $link = $redis->connect('192.168.99.100', 6379);
 
-while (true) {
-    $task = $redis->brPop('mailQueue', 10);    //brPop从队列尾部出队
-    echo $task.'<br>';
+
+$strChannel = 'Test_bihu_channel';
+
+echo "---- 订阅{$strChannel}这个频道，等待消息推送...----  <br/><br/>";
+
+$redis->subscribe([$strChannel], 'callBackFun');
+
+function callBackFun($redis,$channel, $msg )
+{
+    print_r([
+        'redis'   => $redis,
+        'channel' => $channel,
+        'msg'     => $msg
+    ]);
 }
+
+/***
+ * Redis 发布订阅
+ * Redis 客户端可以订阅任意数量的频道。
+ *  SUBSCRIBE redisChat    创建了订阅频道名为 redisChat
+ *  PUBLISH redisChat "Redis is a great caching technique"
+ *
+ */

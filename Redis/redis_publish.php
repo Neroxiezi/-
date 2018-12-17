@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: 运营部
  * Date: 2018/12/17
- * Time: 12:38
+ * Time: 17:04
  *
  *
  *                      _ooOoo_
@@ -28,30 +28,15 @@
  *           佛祖保佑       永无BUG     永不修改
  *
  */
+
+ini_set('default_socket_timeout',-1);
 $redis = new Redis();
 $link = $redis->connect('192.168.99.100',6379);
 
 
-$strQueueName  = 'Test_bihu_queue';
+$strChannel = 'Test_bihu_channel';
 
-//进队列
-$redis->rpush($strQueueName, json_encode(['uid' => 1,'name' => 'Job']));
-$redis->rpush($strQueueName, json_encode(['uid' => 2,'name' => 'Tom']));
-$redis->rpush($strQueueName, json_encode(['uid' => 3,'name' => 'John']));
-
-echo '<pre>';
-
-echo "---- 进队列成功 ---- <br /><br />";
-//查看队列
-$strCount = $redis->lrange($strQueueName, 0, -1);
-echo "当前队列数据为： <br />";
-print_r($strCount);
-
-//出队列
-$redis->lpop($strQueueName);
-echo "<br /><br /> ---- 出队列成功 ---- <br /><br />";
-
-//查看队列
-$strCount = $redis->lrange($strQueueName, 0, -1);
-echo "当前队列数据为： <br />";
-print_r($strCount);
+//发布
+$redis->publish($strChannel,"来自{$strChannel}发布的消息");
+echo "---- {$strChannel} ---- 频道消息推送成功～ <br/>";
+$redis->close();
