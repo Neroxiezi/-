@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="sql_inject@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.3">
+    <root id="1"/>
+    <schema id="2" parent="1" name="sql_inject">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="dvwa"/>
+    <schema id="4" parent="1" name="information_schema"/>
+    <schema id="5" parent="1" name="laravel5"/>
+    <schema id="6" parent="1" name="laravelvideo"/>
+    <schema id="7" parent="1" name="laravel_rbac"/>
+    <schema id="8" parent="1" name="matchmaking"/>
+    <schema id="9" parent="1" name="mysql"/>
+    <schema id="10" parent="1" name="nctest"/>
+    <schema id="11" parent="1" name="performance_schema"/>
+    <schema id="12" parent="1" name="pfinal"/>
+    <schema id="13" parent="1" name="pfinal-cms"/>
+    <schema id="14" parent="1" name="plugin"/>
+    <schema id="15" parent="1" name="scrapy_ip"/>
+    <schema id="16" parent="1" name="sc_attendance"/>
+    <schema id="17" parent="1" name="sc_work"/>
+    <schema id="18" parent="1" name="shopnc"/>
+    <schema id="19" parent="1" name="test"/>
+    <schema id="20" parent="1" name="wealthstorm"/>
+    <schema id="21" parent="1" name="website"/>
+    <schema id="22" parent="1" name="weichat"/>
+    <table id="23" parent="2" name="users"/>
+    <column id="24" parent="23" name="id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="25" parent="23" name="username">
+      <Position>2</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="26" parent="23" name="password">
+      <Position>3</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="27" parent="23" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
