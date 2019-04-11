@@ -88,7 +88,26 @@ class SingleLinkedList
         if ($current->next == null) {
             echo '链表为空';
 
-            return;
+            return false;
         }
+        while ($current->next != null) {
+            if ($current->data == $old) {
+                break;
+            }
+            $current = $current->next;
+        }
+
+        return $current->data = $new;
+    }
+
+    // 查找待删除节点的前一个节点
+    public function findPrevious($item)
+    {
+        $current = $this->header;
+        while ($current->next != null && $current->next->data != $item) {
+            $current = $current->next;
+        }
+
+        return $current;
     }
 }
