@@ -110,4 +110,34 @@ class SingleLinkedList
 
         return $current;
     }
+
+    // 从链表中删除一个节点
+    public function delete($item)
+    {
+        $previous = $this->findPrevious($item);
+        if ($previous->next != null) {
+            $previous->next = $previous->next->next;
+        }
+    }
+
+    // findPrevious和delete的整合
+    public function remove($item) {
+        $current = $this->header;
+        while ($current->next != null && $current->next->data != $item) {
+            $current = $current->next;
+        }
+        if ($current->next != null) {
+            $current->next = $current->next->next;
+        }
+    }
+
+    // 清空链表
+
+    public function clear()
+    {
+        $this->header = null;
+    }
+
+
+
 }
