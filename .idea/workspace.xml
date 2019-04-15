@@ -4,10 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/code/two_linked.php" line="40" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b8d1e5-12be-446a-8a30-5a6b6a263b2e" name="Default" comment="更新">
-      <change afterPath="$PROJECT_DIR$/code/two_linked.php" afterDir="false" />
+    <list default="true" id="a0b8d1e5-12be-446a-8a30-5a6b6a263b2e" name="Default" comment="更新循环链表">
+      <change afterPath="$PROJECT_DIR$/code/loop_linked.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/linked.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/linked.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/two_linked.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="133" column="12" lean-forward="true" selection-start-line="133" selection-start-column="12" selection-end-line="133" selection-end-column="12" />
+            <state relative-caret-position="962">
+              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/loop_linked.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1014">
+              <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -80,6 +88,7 @@
         <option value="$PROJECT_DIR$/code/linked.php" />
         <option value="$USER_HOME$/Documents/Tencent Files/1370288056/FileRecv/YD-196 0元购运费/index.html" />
         <option value="$PROJECT_DIR$/code/two_linked.php" />
+        <option value="$PROJECT_DIR$/code/loop_linked.php" />
       </list>
     </option>
   </component>
@@ -107,6 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,7 +155,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,6 +213,7 @@
       <workItem from="1555297938947" duration="926000" />
       <workItem from="1555298903896" duration="155000" />
       <workItem from="1555299277523" duration="7873000" />
+      <workItem from="1555312581431" duration="1428000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1554971846970</created>
@@ -233,19 +243,27 @@
       <option name="project" value="LOCAL" />
       <updated>1555294418352</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="更新双向链表">
+      <created>1555312636448</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555312636448</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49146000" />
+    <option name="totallyTimeSpent" value="50574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2889126" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32911393" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3297975" />
@@ -270,7 +288,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新" />
+    <MESSAGE value="更新双向链表" />
+    <MESSAGE value="更新循环链表" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新循环链表" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/php-array/linearSearch.php">
@@ -443,13 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/linked.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/Tencent Files/1370288056/FileRecv/YD-196 0元购运费/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -457,10 +470,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/code/linked.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/code/two_linked.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="133" column="12" lean-forward="true" selection-start-line="133" selection-start-column="12" selection-end-line="133" selection-end-column="12" />
+        <state relative-caret-position="962">
+          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/loop_linked.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="86" column="5" lean-forward="true" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
         </state>
       </provider>
     </entry>
