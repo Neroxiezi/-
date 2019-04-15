@@ -138,6 +138,33 @@ class SingleLinkedList
         $this->header = null;
     }
 
+    // 显示链表中的 元素
+    public function display()
+    {
+        $current = $this->header;
+        if($current->next == null) {
+            echo '链表为空';
+            return;
+        }
+        while ($current->next != null) {
+            echo $current->next->data . "&nbsp;&nbsp;&nbsp";
+            $current = $current->next;
+        }
 
-
+    }
 }
+
+$linkedList = new SingleLinkedList('header');
+// var_dump($linkedList);exit();
+$linkedList->insert('header','China');
+$linkedList->insert('header','USA');
+$linkedList->insert('USA','Australia');
+$linkedList->display();
+$linkedList->delete('USA');
+echo '<br>';
+$linkedList->display();
+// 更新节点
+$linkedList->update('Australia','美国');
+echo '<br>';
+$linkedList->display();
+

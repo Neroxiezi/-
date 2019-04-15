@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/code/two_linked.php" line="40" mnemonic="4" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b8d1e5-12be-446a-8a30-5a6b6a263b2e" name="Default" comment="更新">
+      <change afterPath="$PROJECT_DIR$/code/two_linked.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/linked.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/linked.php" afterDir="false" />
     </list>
@@ -27,11 +31,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/linked.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="4" />
+            <state relative-caret-position="286">
+              <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/two_linked.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="133" column="12" lean-forward="true" selection-start-line="133" selection-start-column="12" selection-end-line="133" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -42,6 +55,7 @@
     <findStrings>
       <find>store_coupon</find>
       <find>s</find>
+      <find>chrome</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -64,6 +78,8 @@
         <option value="$PROJECT_DIR$/php_deserialize/README.MD" />
         <option value="$PROJECT_DIR$/../test.php" />
         <option value="$PROJECT_DIR$/code/linked.php" />
+        <option value="$USER_HOME$/Documents/Tencent Files/1370288056/FileRecv/YD-196 0元购运费/index.html" />
+        <option value="$PROJECT_DIR$/code/two_linked.php" />
       </list>
     </option>
   </component>
@@ -91,13 +107,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeSnippet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeSnippet" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
@@ -125,6 +145,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,7 +157,7 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -179,7 +200,10 @@
       <workItem from="1554963665012" duration="8995000" />
       <workItem from="1555034937591" duration="2914000" />
       <workItem from="1555125395861" duration="598000" />
-      <workItem from="1555293262268" duration="1125000" />
+      <workItem from="1555293262268" duration="2774000" />
+      <workItem from="1555297938947" duration="926000" />
+      <workItem from="1555298903896" duration="155000" />
+      <workItem from="1555299277523" duration="7873000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1554971846970</created>
@@ -202,17 +226,24 @@
       <option name="project" value="LOCAL" />
       <updated>1554976990257</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="更新">
+      <created>1555294418352</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555294418352</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38543000" />
+    <option name="totallyTimeSpent" value="49146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2761194" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2857143" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -414,8 +445,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/linked.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="140" column="4" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="4" />
+        <state relative-caret-position="286">
+          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/1370288056/FileRecv/YD-196 0元购运费/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="93" column="44" lean-forward="true" selection-start-line="93" selection-start-column="44" selection-end-line="93" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/two_linked.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="133" column="12" lean-forward="true" selection-start-line="133" selection-start-column="12" selection-end-line="133" selection-end-column="12" />
         </state>
       </provider>
     </entry>
