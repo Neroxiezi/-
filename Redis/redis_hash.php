@@ -29,7 +29,8 @@
  *
  */
 $redis = new Redis();
-$link = $redis->connect('192.168.99.100',6379);
+$link = $redis->connect('127.0.0.1',6379);
+$redis->auth('pfinal');
 //var_dump($link); // 返回bool值 true
 
 echo '<pre>';
