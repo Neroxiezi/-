@@ -4,11 +4,14 @@
     <bookmark url="file://$PROJECT_DIR$/code/two_linked.php" line="40" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b8d1e5-12be-446a-8a30-5a6b6a263b2e" name="Default" comment="更新PHP实现负载均衡的加权轮询">
-      <change afterPath="$PROJECT_DIR$/code/article_fever.php" afterDir="false" />
+    <list default="true" id="a0b8d1e5-12be-446a-8a30-5a6b6a263b2e" name="Default" comment="更新">
+      <change afterPath="$PROJECT_DIR$/code/Concurrent/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Concurrent/redis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Publish&amp;&amp;Subscribe/publish.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/Publish&amp;&amp;Subscribe/subscribe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/data_cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/redis_lock.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Redis/redis_demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Redis/redis_demo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Redis/redis_hash.php" beforeDir="false" afterPath="$PROJECT_DIR$/Redis/redis_hash.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,19 +36,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/Weighting.php">
+        <entry file="file://$PROJECT_DIR$/code/redis_lock.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2184">
-              <caret line="112" column="22" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
+            <state relative-caret-position="1690">
+              <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/data_cache.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/Concurrent/redis.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+              <folding>
+                <element signature="e#6#889#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/Concurrent/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+              <folding>
+                <element signature="e#6#889#0#PHP" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/code/article_fever.php">
+        <entry file="file://$PROJECT_DIR$/code/Publish&amp;&amp;Subscribe/publish.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4316">
-              <caret line="212" column="36" lean-forward="true" selection-start-line="212" selection-start-column="36" selection-end-line="212" selection-end-column="36" />
+            <state relative-caret-position="130">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="e#6#889#0#PHP" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/Publish&amp;&amp;Subscribe/subscribe.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+              <folding>
+                <element signature="e#6#889#0#PHP" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,6 +139,12 @@
         <option value="$PROJECT_DIR$/Redis/redis_hash.php" />
         <option value="$PROJECT_DIR$/Redis/redis_demo.php" />
         <option value="$PROJECT_DIR$/code/article_fever.php" />
+        <option value="$PROJECT_DIR$/code/redis_lock.php" />
+        <option value="$PROJECT_DIR$/code/data_cache.php" />
+        <option value="$PROJECT_DIR$/code/Concurrent/redis.php" />
+        <option value="$PROJECT_DIR$/code/Concurrent/index.php" />
+        <option value="$PROJECT_DIR$/code/Publish&amp;&amp;Subscribe/subscribe.php" />
+        <option value="$PROJECT_DIR$/code/Publish&amp;&amp;Subscribe/publish.php" />
       </list>
     </option>
   </component>
@@ -115,6 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,6 +184,12 @@
               <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeSnippet" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeSnippet" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="Publish&amp;&amp;Subscribe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
@@ -153,7 +217,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,7 +280,8 @@
       <workItem from="1555378793902" duration="5734000" />
       <workItem from="1555386006831" duration="3996000" />
       <workItem from="1555396590501" duration="3659000" />
-      <workItem from="1555401057234" duration="1391000" />
+      <workItem from="1555401057234" duration="4964000" />
+      <workItem from="1555465334091" duration="2647000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1554971846970</created>
@@ -268,17 +332,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555383989903</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="更新">
+      <created>1555402462666</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555402462666</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69188000" />
+    <option name="totallyTimeSpent" value="75408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30490404" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30810234" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -289,7 +360,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32911393" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32911393" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="10" weight="0.32911393" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -305,11 +376,11 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新" />
     <MESSAGE value="更新双向链表" />
     <MESSAGE value="更新循环链表" />
     <MESSAGE value="更新PHP实现负载均衡的加权轮询" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新PHP实现负载均衡的加权轮询" />
+    <MESSAGE value="更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/php-array/linearSearch.php">
@@ -534,10 +605,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/Weighting.php">
+    <entry file="file://$PROJECT_DIR$/Redis/redis_list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2184">
-          <caret line="112" column="22" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
+        <state relative-caret-position="286">
+          <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -545,6 +616,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4316">
           <caret line="212" column="36" lean-forward="true" selection-start-line="212" selection-start-column="36" selection-end-line="212" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/Weighting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="112" column="22" selection-start-line="112" selection-start-column="22" selection-end-line="112" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/redis_lock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1690">
+          <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/data_cache.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/Concurrent/redis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding>
+            <element signature="e#6#889#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/Publish&amp;&amp;Subscribe/subscribe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="e#6#889#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/Concurrent/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="e#6#889#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/Publish&amp;&amp;Subscribe/publish.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#6#889#0#PHP" />
+          </folding>
         </state>
       </provider>
     </entry>
