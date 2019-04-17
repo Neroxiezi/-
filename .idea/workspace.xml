@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b8d1e5-12be-446a-8a30-5a6b6a263b2e" name="Default" comment="更新">
-      <change afterPath="$PROJECT_DIR$/code/ranking_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/optimistic_lock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/pessimistic_lock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/restricted_request.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,15 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/code/redis_lock.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1690">
-              <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/data_cache.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -84,11 +77,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/ranking_list.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="624">
               <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/pessimistic_lock.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/optimistic_lock.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="33" selection-start-line="33" selection-end-line="35" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/restricted_request.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="754">
+              <caret line="80" column="24" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/code/two_linked.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -136,7 +165,6 @@
         <option value="$PROJECT_DIR$/../test.php" />
         <option value="$PROJECT_DIR$/code/linked.php" />
         <option value="$USER_HOME$/Documents/Tencent Files/1370288056/FileRecv/YD-196 0元购运费/index.html" />
-        <option value="$PROJECT_DIR$/code/two_linked.php" />
         <option value="$PROJECT_DIR$/code/loop_linked.php" />
         <option value="$PROJECT_DIR$/code/Weighting.php" />
         <option value="D:/redis/redis.windows.conf" />
@@ -150,6 +178,10 @@
         <option value="$PROJECT_DIR$/code/Publish&amp;&amp;Subscribe/subscribe.php" />
         <option value="$PROJECT_DIR$/code/Publish&amp;&amp;Subscribe/publish.php" />
         <option value="$PROJECT_DIR$/code/ranking_list.php" />
+        <option value="$PROJECT_DIR$/code/two_linked.php" />
+        <option value="$PROJECT_DIR$/code/pessimistic_lock.php" />
+        <option value="$PROJECT_DIR$/code/optimistic_lock.php" />
+        <option value="$PROJECT_DIR$/code/restricted_request.php" />
       </list>
     </option>
   </component>
@@ -281,7 +313,7 @@
       <workItem from="1555396590501" duration="3659000" />
       <workItem from="1555401057234" duration="4964000" />
       <workItem from="1555465334091" duration="4062000" />
-      <workItem from="1555472612387" duration="2786000" />
+      <workItem from="1555472612387" duration="6170000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1554971846970</created>
@@ -346,11 +378,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555468258762</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="更新">
+      <created>1555478911586</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1555478911586</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79609000" />
+    <option name="totallyTimeSpent" value="82993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -390,20 +429,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="更新" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/php-array/linearSearch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/SPL/SPL_c1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="1172" column="6" selection-start-line="1172" selection-start-column="6" selection-end-line="1172" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/miscellaneous/closure.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="654">
@@ -567,13 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/two_linked.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/linked.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -691,6 +709,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/two_linked.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/pessimistic_lock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/optimistic_lock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="33" selection-start-line="33" selection-end-line="35" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/restricted_request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="80" column="24" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
         </state>
       </provider>
     </entry>
