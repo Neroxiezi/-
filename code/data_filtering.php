@@ -136,5 +136,4 @@ function safe_replace($string)
     $string = str_replace('\\', '', $string);
 
     return $string;
-
 }
