@@ -168,3 +168,4 @@ $linkedList->update('Australia','美国');
 echo '<br>';
 $linkedList->display();
 
+// 最合适的两个人 不是在一开始就一拍即合,而是愿意在未来漫长的岁月里，为了彼此而变成最好的人,用漫长岁月里把你妥善安放。
