@@ -1,8 +1,6 @@
 # LARAVEL 教程文档
 
-![houdunren](assets/houdunren-0343039.jpg)
 
-> 后盾人 www.houdunren.com  作者：[向军大叔](http://www.aoxiangjun.com)
 
 ## 介绍
 
