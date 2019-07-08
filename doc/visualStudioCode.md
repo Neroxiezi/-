@@ -1,6 +1,5 @@
 ## EVisual Studio Code
 
-> 后盾人 www.houdunren.com  作者：[向军大叔](http://www.aoxiangjun.com)
 
 ## 安装软件
 

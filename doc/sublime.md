@@ -1,8 +1,6 @@
 # SUBLIME
 
-![1526631364812](assets/1526631364812-1710652.png)
 
-> 后盾人 www.houdunren.com  作者：向军大叔
 
 Sublime Text 是一个代码编辑器（Sublime Text 2是收费软件，但可以无限期试用），也是HTML和散文先进的文本编辑器。Sublime Text是由程序员Jon Skinner于2008年1月份所开发出来，它最初被设计为一个具有丰富扩展功能的[Vim](https://baike.baidu.com/item/Vim)。
 

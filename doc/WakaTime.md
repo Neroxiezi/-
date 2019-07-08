@@ -1,7 +1,5 @@
 # WakaTime for PhpStorm
 
-> 后盾人 www.houdunren.com  作者：[向军大叔](http://www.aoxiangjun.com)
-
 ### 安装
 
 1. 在PhpStorm内部，打开插件首选项，然后单击`Browse Repositories…`。

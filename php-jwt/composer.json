@@ -1,0 +1,17 @@
+{
+  "name": "administrator/php-jwt",
+  "authors": [
+    {
+      "name": "南丞",
+      "email": "lampxiezi@163.com"
+    }
+  ],
+  "require": {
+    "lcobucci/jwt": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Api\\": "api/"
+    }
+  }
+}
