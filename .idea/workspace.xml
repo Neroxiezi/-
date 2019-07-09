@@ -5,169 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b8d1e5-12be-446a-8a30-5a6b6a263b2e" name="Default" comment="更新">
-      <change afterPath="$PROJECT_DIR$/php_file_cache/a.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_file_cache/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/ab/Ab.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/Git.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/Homestead.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/Laravel.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/PHP-Microservices.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/WakaTime.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1525702644734-9243316.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1525702644734.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1525702747114-9243263.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1525702747114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1525704374890-1710462.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1525704374890.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1525704468208-1710508.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1525704468208.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1525704552079-1710496.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1525704552079.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1525747782347-1710499.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1525747782347.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1525748881682-1710502.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1525748881682.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526214082941.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526214156985.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526219105062.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526276371437.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526280838031.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526281914667.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526349408538.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526350329952.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526350904807.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526351111376.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526482811466.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526482867339.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526549609681.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526549644760.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526631364812-1710307.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526631364812-1710418.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526631364812-1710492.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526631364812-1710652.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526631364812-1710675.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526631364812-1710750.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526631364812-1710769.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526631364812.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1526824266396.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1527566651813.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1527568257353.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1527568946858.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1527568991291.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/1527570535646.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/20160722165047_65119.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/4AB11456-D915-4A85-B434-8654AB3D6B6E.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/A7BA857C-974D-4B0D-A4F6-6D77E0F51743-0343658.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/A7BA857C-974D-4B0D-A4F6-6D77E0F51743.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/FA2AB3FA-2B6F-4BC0-881B-03CB09668B37-0343581.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/FA2AB3FA-2B6F-4BC0-881B-03CB09668B37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/houdunren-0343039.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180406180727630.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180406202224642.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180406202235645.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180406202237716.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180406202449981.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180406202459254.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180406202459966.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180406202518536.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180406202537788.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180406202601929.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180410152226786.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180410152253129.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180417002620380.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180417002625450.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180417002634147.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180417002646478.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180417002705929.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180417002717943.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180417232643165.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180421012238440.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180421012330933.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180421012414784.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180617095610552.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180617095735490.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180617100203041.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180617101922092.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180617102725524.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180617103120425.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180617171051374.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180617171432968.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180617194740747.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180617194928927.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180620155838912.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180623122121518.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180623122407106.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180624194143371.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180628122441329.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180628123448463.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180628123556704.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180628124151269.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180628124248502.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180628124449686.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180629160604023.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180707154600462.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180708020938479.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180727144658866.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180727145019669.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180810224729833.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180811222908857.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180811224509798.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180812183140548.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180831213811460.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180831213916194.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180831214007746.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180831214157536.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180908012825011.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180908013025626.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20180923182237492.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20181020194746230.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20181020194921483.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20181020194923549.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20181020194927317.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20181020195230055.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20181020205744490.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20181107013712350.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20181110171158894.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20181111172255384.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20181113001714540.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20181113012322618.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20181113012412559.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20181118220416359.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20181222135535460-5458135.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20181222135535460.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20181223234934661-5580174.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/image-20181223234934661.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/assets/pl-php.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/composer.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/laravel 5.6.assets/image-20180406202333991.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/laravel 5.6.assets/image-20180406202335605.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/laravel 5.6.assets/image-20180406202343149.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/laravel 5.6.assets/image-20180406202344300.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/laravel 5.6.assets/image-20180406202349251.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/laravel 5.6.assets/image-20180406202426217.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/laravel 5.6.assets/image-20180406202427760.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/laravel 5.6.assets/image-20180406202433960.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/laravel 5.6.assets/image-20180406202438131.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/miniProgram.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/package.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/php7/assets/image-20181222140430862-5458670.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/php7/assets/image-20181222140430862.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/php7/assets/image-20181222140517262-5458717.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/php7/assets/image-20181222140517262.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/php7/assets/image-20181222140741435-5458861.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/php7/assets/image-20181222140741435.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/php7/assets/image-20181222140804948-5458885.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/php7/assets/image-20181222140804948.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/php7/assets/php7-infographic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/php7/assets/递归.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/php7/基础知识.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/phpstorm.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/sublime.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/thinkphp/thinkphp5.1开发技巧.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/visualStudioCode.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/wamp.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/xampp.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,20 +33,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php_file_cache/a.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php_file_cache/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <entry file="file://$PROJECT_DIR$/docs/ab/Ab.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="583">
+                <caret line="49" column="83" selection-start-line="49" selection-start-column="83" selection-end-line="49" selection-end-column="83" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -230,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/code/data_cache.php" />
         <option value="$PROJECT_DIR$/code/Concurrent/redis.php" />
         <option value="$PROJECT_DIR$/code/Concurrent/index.php" />
         <option value="$PROJECT_DIR$/code/Publish&amp;&amp;Subscribe/subscribe.php" />
@@ -281,6 +113,7 @@
         <option value="$PROJECT_DIR$/laravel-jwt/jwt/vendor/tymon/jwt-auth/src/JWT.php" />
         <option value="$PROJECT_DIR$/php_file_cache/a.php" />
         <option value="$PROJECT_DIR$/php_file_cache/index.php" />
+        <option value="$PROJECT_DIR$/docs/ab/Ab.md" />
       </list>
     </option>
   </component>
@@ -320,6 +153,17 @@
             <path>
               <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeSnippet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeSnippet" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeSnippet" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="ab" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -408,7 +252,7 @@
       <workItem from="1562555064762" duration="3075000" />
       <workItem from="1562568020808" duration="40000" />
       <workItem from="1562568065401" duration="3052000" />
-      <workItem from="1562647684427" duration="2708000" />
+      <workItem from="1562647684427" duration="3590000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1554971846970</created>
@@ -519,7 +363,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122007000" />
+    <option name="totallyTimeSpent" value="122889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -559,13 +403,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="更新" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code/data_filtering.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2834">
-          <caret line="137" column="19" selection-start-line="137" selection-start-column="19" selection-end-line="137" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/simple_counter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -929,13 +766,6 @@
     <entry file="file://$PROJECT_DIR$/php_file_cache/a.cache.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/php_file_cache/a.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/houdunren-code-master/code/video/php7/helper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -952,8 +782,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php_file_cache/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="52">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php_file_cache/a.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/ab/Ab.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="583">
+            <caret line="49" column="83" selection-start-line="49" selection-start-column="83" selection-end-line="49" selection-end-column="83" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
