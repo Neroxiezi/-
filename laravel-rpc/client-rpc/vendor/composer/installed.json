@@ -1,0 +1,90 @@
+[
+    {
+        "name": "hprose/hprose",
+        "version": "v2.0.39",
+        "version_normalized": "2.0.39.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hprose/hprose-php.git",
+            "reference": "cda46f873c78585ad77bf4be733edd6e2a9a6573"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hprose/hprose-php/zipball/cda46f873c78585ad77bf4be733edd6e2a9a6573",
+            "reference": "cda46f873c78585ad77bf4be733edd6e2a9a6573",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": ">=4.0.0"
+        },
+        "suggest": {
+            "ext-hprose": "Faster serialize and unserialize hprose extension."
+        },
+        "time": "2019-06-07T09:30:44+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/init.php"
+            ],
+            "psr-4": {
+                "Hprose\\": "src/Hprose"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ma Bingyao",
+                "email": "andot@hprose.com",
+                "homepage": "http://hprose.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "It is a modern, lightweight, cross-language, cross-platform, object-oriented, high performance, remote dynamic communication middleware. It is not only easy to use, but powerful. You just need a little time to learn, then you can use it to easily construct cross language cross platform distributed application system.",
+        "homepage": "http://hprose.com/",
+        "keywords": [
+            "HTML5",
+            "Hprose",
+            "Socket",
+            "ajax",
+            "async",
+            "communication",
+            "cross-domain",
+            "cross-language",
+            "cross-platform",
+            "framework",
+            "future",
+            "game",
+            "http",
+            "json",
+            "jsonrpc",
+            "library",
+            "middleware",
+            "phprpc",
+            "protocol",
+            "rpc",
+            "serialization",
+            "serialize",
+            "service",
+            "tcp",
+            "unix",
+            "web",
+            "webapi",
+            "webservice",
+            "websocket",
+            "xmlrpc"
+        ]
+    }
+]
