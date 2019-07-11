@@ -13,6 +13,6 @@ $res = $client->comment_content();
     <title>Document</title>
 </head>
 <body>
-    <?php echo $res;?>
+    <div id="comment"><?php echo $res?></div>
 </body>
 </html>

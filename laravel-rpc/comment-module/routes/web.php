@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('/test', 'Api\CommentController@comment_content')->name('home');
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
