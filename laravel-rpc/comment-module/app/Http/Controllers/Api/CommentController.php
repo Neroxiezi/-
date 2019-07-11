@@ -9,6 +9,6 @@ class CommentController extends Controller
 {
     public function comment_content()
     {
-        return view('modules.comment.comment_content');
+        return view('modules.comment.comment_content')->render();
     }
 }
