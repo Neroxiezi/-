@@ -1,33 +1,21 @@
 var editor2 = '';
 var csrf_token = '';
+
 function foo(data) {
-    console.log(data['csrf_token'])    
-    csrf_token = JSON.stringify(data['csrf_token'])
-  };
-  function addScriptTag(src) {
+    csrf_token = data['csrf_token']
+}
+
+function addScriptTag(src) {
     var script = document.createElement('script');
-    script.setAttribute("type","text/javascript");
+    script.setAttribute("type", "text/javascript");
     script.src = src;
     document.body.appendChild(script);
-  }
-  
-  window.onload = function(){
-    addScriptTag('http://dev.jwt_test.com/csrf_token?callback=foo');
-  }
-$(document).ready(function () {
+}
 
-    
-                 
-    // $.ajax({
-    //     type: 'get',
-    //     url: 'http://dev.jwt_test.com/csrf_token',
-    //     headers: {
-    //         'Access-Control-Allow-Origin': '*'
-    //     },
-    //     success: function (res) {
-    //         csrf_token = res
-    //     }
-    // });
+window.onload = function () {
+    addScriptTag('http://dev.jwt_test.com/csrf_token?callback=foo');
+};
+$(document).ready(function () {
     $("#comment_editor input").on("focus", function () {
         $(".photo").css('margin', '0');
         $(".photo").css('height', '15%');
@@ -54,7 +42,7 @@ $(document).ready(function () {
         var content = editor2.txt.html();
         var member_id = 1;
         var parent_id = 0;
-        var send_url = "http://dev.jwt_test.com/comment_save"
+        var send_url = $(this).attr('data-send_url');
         $.ajax({
             type: 'post',
             url: send_url,

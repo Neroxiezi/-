@@ -10,9 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/test', 'Api\CommentController@comment_content')->name('home');
-Route::get('/csrf_token', 'Api\CommentController@get_csrf_token');
-Route::post('/comment_save', 'Api\CommentController@comment_save');
+Route::get('comment_client', 'CommentClientController@index')->middleware('accrossDomain');
+Route::post('comment_save', 'CommentClientController@comment_save')->middleware('accrossDomain');
+Route::get('csrf_token',function (){
+    return 'foo({"csrf_token": "'.csrf_token().'"});';
+});
 Auth::routes();
-
 Route::get('/', 'HomeController@index')->name('home');

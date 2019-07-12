@@ -7,14 +7,16 @@ use App\Http\Controllers\Controller;
 
 class CommentController extends Controller
 {
+    protected $middleware;
+
     public static function comment_content()
     {
         return view('modules.comment.comment_content')->render();
     }
 
-    public static function comment_save(Request $request)
+    public function comment_save()
     {
-        dd($request->all());
+
     }
 
     public static function get_csrf_token()

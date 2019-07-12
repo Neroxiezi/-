@@ -20,14 +20,14 @@
                     <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAyCAIAAACVqM/bAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABR0lEQVRYhWP8//8/w2ACLAwMDK/PXz7TNunJ3sN/vv8YGEdwcsg425pU5Yka6jK+Ondpg3PoQDkFzVkBe1czO779/e7arYF2DAMDA8O/P3++vXzDbP/8678/fwbaMVDw5fEzFjyRJbC9DJn7wbMLjyzxKtFkkcGf7z+YcMkNFBh1ECEw6BzEOI1DnkilxKdN4lVigkEXQqMOIgQGnYNISNRogPiSmiQw6EJo1EGEwKBzEPklNfFgtKSmKhh1ECGAkqjJTraUALQkP+hCaNRBhAAL2TqJb8KSBAZdCI06iBAYdRAhMOogQmDUQYQAviYsJWMGZJsz6EJo1EGEwKBzEPmDDTQCTCycHAPtBgRg4eRgknG2HWhnIICMsy2TSVXeIAkkFk4Ok6o8JlFD3YC9qxV8XAfQWSycHAo+rgF7V4sa6jIOtgk8AGBtYijRaAUyAAAAAElFTkSuQmCC"
                         alt="">
                 </div>
-                <div class="col-md-11" id="comment_editor" style="margin: auto!important;"><input type="text"
+                <div class="col-md-11" id="comment_editor" style="margin: auto!important;"><input id="comment_editor input" type="text"
                         style="width: 100%;" class="form-control" placeholder="开始讨论" aria-label="Username"
                         aria-describedby="basic-addon1">
                 </div>
             </div>
             <div class="input-group row justify-content-end">
                 <div class="col-md-11">
-                    <button class="btn btn-outline-success btn-sm comment_save" style="float: right">提交</button>
+                    <button class="btn btn-outline-success btn-sm comment_save" data-send_url="http://dev.jwt_test.com/comment_save" style="float: right">提交</button>
                 </div>
             </div>
         </div>

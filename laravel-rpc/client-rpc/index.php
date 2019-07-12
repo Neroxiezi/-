@@ -1,12 +1,12 @@
 <?php
-error_reporting(0);
-require './vendor/autoload.php';
-try{
-    $client = new \Hprose\Socket\Client('tcp://127.0.0.1:1314', false);
-    $res = $client->comment_content();
-}catch(\Exception $e) {
-    $res = '';
-}
+// error_reporting(0);
+// require './vendor/autoload.php';
+// try{
+//     $client = new \Hprose\Socket\Client('tcp://127.0.0.1:1314', false);
+//     $res = $client->comment_content();
+// }catch(\Exception $e) {
+//     $res = '';
+// }
 
 ?>
 <!DOCTYPE html>
@@ -18,6 +18,8 @@ try{
     <title>Document</title>
 </head>
 <body>
-    <div id="comment"><?php echo $res?></div>
+    <div id="comment"></div>
+    <script src="client_comment.js"></script>
+    
 </body>
 </html>
