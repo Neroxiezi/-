@@ -8,7 +8,7 @@ window.onload = function(){
                 var data = ajaxObj.responseText
                 let frag = document.createRange().createContextualFragment(data);
                 document.getElementById("comment").appendChild(frag)
-                console.log()
+                
             }
         }
         ajaxObj.send()

@@ -29,6 +29,6 @@ class CommentClientController extends Controller
 
     public function comment_save(Request $request)
     {
-        dd($request->all());
+        dd($_POST);
     }
 }

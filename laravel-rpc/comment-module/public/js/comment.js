@@ -12,16 +12,16 @@ function addScriptTag(src) {
     document.body.appendChild(script);
 }
 
-window.onload = function () {
-    addScriptTag('http://dev.jwt_test.com/csrf_token?callback=foo');
-};
+// window.onload = function () {
+//     addScriptTag('http://dev.jwt_test.com/csrf_token?callback=foo');
+// };
 $(document).ready(function () {
+    addScriptTag('http://dev.jwt_test.com/csrf_token?callback=foo');
     $("#comment_editor input").on("focus", function () {
         $(".photo").css('margin', '0');
         $(".photo").css('height', '15%');
-        var E = window.wangEditor;
         $("#comment_editor").empty().append("<div id='comment_send_editor' style='height:30%;'></div>");
-        editor2 = new E('#comment_send_editor');
+        editor2 = new wangEditor('#comment_send_editor');
         editor2.customConfig.menus = [
             'head', // 标题
             'bold', // 粗体
@@ -38,11 +38,11 @@ $(document).ready(function () {
         editor2.create()
     });
 
-    $(".comment_save").on("click", function () {
+    $(document).on("click", '#comment_save_btn', function () {
         var content = editor2.txt.html();
         var member_id = 1;
         var parent_id = 0;
-        var send_url = $(this).attr('data-send_url');
+        var send_url = 'http://dev.jwt_test.com/comment_save';
         $.ajax({
             type: 'post',
             url: send_url,
@@ -58,6 +58,7 @@ $(document).ready(function () {
             success: function (res) {
                 console.log(res)
             }
-        })
+        });
+        return false;
     })
 })

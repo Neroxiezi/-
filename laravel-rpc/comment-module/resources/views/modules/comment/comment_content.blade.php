@@ -4,7 +4,7 @@
     }
 
 </style>
-<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="http://dev.jwt_test.com/js/jquery-2.2.4.min.js?version={{time()}}"></script>
 <script src="http://dev.jwt_test.com/js/app.js" defer></script>
 <script src="https://unpkg.com/wangeditor@3.1.1/release/wangEditor.min.js"></script>
 <link href="http://dev.jwt_test.com/css/app.css" rel="stylesheet">
@@ -27,7 +27,7 @@
             </div>
             <div class="input-group row justify-content-end">
                 <div class="col-md-11">
-                    <button class="btn btn-outline-success btn-sm comment_save" data-send_url="http://dev.jwt_test.com/comment_save" style="float: right">提交</button>
+                    <button class="btn btn-outline-success btn-sm " id="comment_save_btn" style="float: right">提交</button>
                 </div>
             </div>
         </div>
