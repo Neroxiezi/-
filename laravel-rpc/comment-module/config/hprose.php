@@ -13,6 +13,6 @@ return [
      */
     'demo' => env('HPROSE_DEMO'),
 
-    'parameter'=>'App\\Controllers\\Parameters',
-    'controller' => 'App\\Controllers',
+    'parameter' => 'App\\Controllers\\Parameters',
+    'controller' => 'App\\Controllers\\Api',
 ];

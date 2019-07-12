@@ -11,6 +11,8 @@
 |
 */
 Route::get('/test', 'Api\CommentController@comment_content')->name('home');
+Route::get('/csrf_token', 'Api\CommentController@get_csrf_token');
+Route::post('/comment_save', 'Api\CommentController@comment_save');
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');

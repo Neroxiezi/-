@@ -1,8 +1,13 @@
 <?php
+error_reporting(0);
 require './vendor/autoload.php';
+try{
+    $client = new \Hprose\Socket\Client('tcp://127.0.0.1:1314', false);
+    $res = $client->comment_content();
+}catch(\Exception $e) {
+    $res = '';
+}
 
-$client = new \Hprose\Socket\Client('tcp://127.0.0.1:1314', false);
-$res = $client->comment_content();
 ?>
 <!DOCTYPE html>
 <html lang="en">
