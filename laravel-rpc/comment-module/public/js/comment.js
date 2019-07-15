@@ -17,7 +17,7 @@ function addScriptTag(src) {
 // };
 $(document).ready(function () {
     $("#comment_editor input").on("focus", function () {
-        addScriptTag('http://dev.jwt_test.com/csrf_token?callback=foo');
+        //addScriptTag('http://dev.jwt_test.com/csrf_token?callback=foo');
         $(".photo").css('margin', '0');
         $(".photo").css('height', '15%');
         $("#comment_editor").empty().append("<div id='comment_send_editor' style='height:30%;'></div>");
@@ -39,7 +39,6 @@ $(document).ready(function () {
     });
 
     $(document).on("click", '#comment_save_btn', function () {
-
         var content = editor2.txt.html();
         var member_id = 1;
         var parent_id = 0;
@@ -51,13 +50,28 @@ $(document).ready(function () {
             data: {
                 'member_id': member_id,
                 'content': content,
-                'parent_id': parent_id
+                'parent_id': parent_id,
+                'obj_id': 1,
+                'referer_url': window.location.href,
             },
             headers: {
                 'X-CSRF-TOKEN': csrf_token,
             },
             success: function (res) {
-                console.log(res)
+                if (res.code == 200) {
+                    console.log(res);
+                    $("#msg_popover").append('<div class="alert alert-success alert-dismissible" role="alert"><b>' + res.msg + '</b></div>').popover('toggle');
+                    setTimeout(function () {
+                        $("#msg_popover").popover('disable');
+                        window.location.href = res.data['referer_url'];
+                    }, 1000)
+                } else {
+                    $("#msg_popover").append('<div class="alert alert-danger alert-dismissible" role="alert"><b>' + res.msg + '</b></div>').popover('toggle');
+                    setTimeout(function () {
+                        $("#msg_popover").popover('disable');
+                        window.location.href = res.data['referer_url'];
+                    }, 1000)
+                }
             }
         });
         return false;

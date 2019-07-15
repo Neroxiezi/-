@@ -10,12 +10,5 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('comment_client', 'CommentClientController@index')->middleware('accrossDomain');
-Route::get(
-    'csrf_token',
-    function () {
-        return 'foo({"csrf_token": "'.csrf_token().'"});';
-    }
-);
 Auth::routes();
 Route::get('/', 'HomeController@index')->name('home');
