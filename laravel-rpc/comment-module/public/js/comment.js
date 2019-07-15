@@ -16,8 +16,8 @@ function addScriptTag(src) {
 //     addScriptTag('http://dev.jwt_test.com/csrf_token?callback=foo');
 // };
 $(document).ready(function () {
-    addScriptTag('http://dev.jwt_test.com/csrf_token?callback=foo');
     $("#comment_editor input").on("focus", function () {
+        addScriptTag('http://dev.jwt_test.com/csrf_token?callback=foo');
         $(".photo").css('margin', '0');
         $(".photo").css('height', '15%');
         $("#comment_editor").empty().append("<div id='comment_send_editor' style='height:30%;'></div>");
@@ -39,10 +39,11 @@ $(document).ready(function () {
     });
 
     $(document).on("click", '#comment_save_btn', function () {
+
         var content = editor2.txt.html();
         var member_id = 1;
         var parent_id = 0;
-        var send_url = 'http://dev.jwt_test.com/comment_save';
+        var send_url = 'http://dev.jwt_test.com/api/comment_save';
         $.ajax({
             type: 'post',
             url: send_url,

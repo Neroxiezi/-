@@ -4,7 +4,6 @@
     }
 
 </style>
-<script src="http://dev.jwt_test.com/js/jquery-2.2.4.min.js?version={{time()}}"></script>
 <script src="http://dev.jwt_test.com/js/app.js" defer></script>
 <script src="https://unpkg.com/wangeditor@3.1.1/release/wangEditor.min.js"></script>
 <link href="http://dev.jwt_test.com/css/app.css" rel="stylesheet">
@@ -33,4 +32,5 @@
         </div>
     </div>
 </div>
+<script src="http://dev.jwt_test.com/js/jquery-2.2.4.min.js?version={{time()}}"></script>
 <script src="http://dev.jwt_test.com/js/comment.js?version={{time()}}"></script>
