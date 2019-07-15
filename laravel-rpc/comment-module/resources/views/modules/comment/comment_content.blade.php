@@ -23,12 +23,17 @@
                         aria-describedby="basic-addon1">
                 </div>
             </div>
-            <div class="input-group row justify-content-end">
+            <div class="input-group row justify-content-end" style="display: none">
                 <div class="col-md-11">
                     <button class="btn btn-outline-success btn-sm " id="comment_save_btn" style="float: right">提交</button>
                 </div>
             </div>
             <div id="msg_popover"></div>
+        </div>
+    </div>
+    <div class="card comment_list">
+        <div class="card-header bg-transparent" style="border: none;text-align: center">
+            <span><b>没有评论,赶快抢沙发吧!</b></span>
         </div>
     </div>
 </div>

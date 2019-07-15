@@ -14,6 +14,7 @@ use Illuminate\Http\Request;
 */
 Route::get('comment_client', 'Api\CommentClientController@index')->middleware('accross');
 Route::middleware('accross')->post('comment_save', 'Api\CommentClientController@comment_save');
+Route::middleware('accross')->post('comment_list','Api\CommentClientController@comment_list');
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });

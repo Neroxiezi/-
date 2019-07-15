@@ -1,23 +1,8 @@
 var editor2 = '';
 var csrf_token = '';
-
-function foo(data) {
-    csrf_token = data['csrf_token']
-}
-
-function addScriptTag(src) {
-    var script = document.createElement('script');
-    script.setAttribute("type", "text/javascript");
-    script.src = src;
-    document.body.appendChild(script);
-}
-
-// window.onload = function () {
-//     addScriptTag('http://dev.jwt_test.com/csrf_token?callback=foo');
-// };
 $(document).ready(function () {
+    console.log(123);
     $("#comment_editor input").on("focus", function () {
-        //addScriptTag('http://dev.jwt_test.com/csrf_token?callback=foo');
         $(".photo").css('margin', '0');
         $(".photo").css('height', '15%');
         $("#comment_editor").empty().append("<div id='comment_send_editor' style='height:30%;'></div>");
@@ -35,9 +20,9 @@ $(document).ready(function () {
             'emoticon', // 表情
         ];
         editor2.customConfig.height = '30%';
-        editor2.create()
+        editor2.create();
+        $(".justify-content-end").css("display", "flex")
     });
-
     $(document).on("click", '#comment_save_btn', function () {
         var content = editor2.txt.html();
         var member_id = 1;
@@ -76,4 +61,7 @@ $(document).ready(function () {
         });
         return false;
     })
-})
+    $(document).ready(function () {
+        console.log('加载完毕了');
+    })
+});

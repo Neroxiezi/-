@@ -52,6 +52,7 @@ class CommentClientController extends Controller
         $params['obj_id'] = $request->input('obj_id');
         try {
             $this->comment->create_comment($params);
+
             return response()->json(
                 ['code' => 200, 'msg' => '评论成功', 'data' => ['referer_url' => $params['referer_url']]]
             );
@@ -60,5 +61,10 @@ class CommentClientController extends Controller
                 ['code' => 405, 'msg' => $e->getMessage(), 'data' => ['referer_url' => $params['referer_url']]]
             );
         }
+    }
+
+    public function comment_list()
+    {
+
     }
 }
