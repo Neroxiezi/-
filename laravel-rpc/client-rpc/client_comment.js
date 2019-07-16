@@ -10,9 +10,11 @@ window.onload = function(){
         ajaxObj.onreadystatechange = function(){
             if (ajaxObj.readyState == 4) {
                 var data = ajaxObj.responseText
-                let frag = document.createRange().createContextualFragment(data);
-                document.getElementById("comment").appendChild(frag)
-                
+                console.log(JSON.parse(data).code==200);
+                if(JSON.parse(data).code==200) {
+                    let frag = document.createRange().createContextualFragment(JSON.parse(data)['data']);
+                    document.getElementById("comment").appendChild(frag)
+                }
             }
         }
         ajaxObj.send()
