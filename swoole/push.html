@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PUSH</title>
+</head>
+<body>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    var content = prompt("请输入推送的消息");
+    $.post("http://127.0.0.1:9502", {content: content, id: 1}, function (data) {
+        alert('推送成功')
+    })
+</script>
+</body>
+</html>

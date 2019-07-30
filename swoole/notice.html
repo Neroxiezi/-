@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notice</title>
+</head>
+<body>
+<div id="msg"></div>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    var msg = '';
+    ws = new WebSocket('ws://127.0.0.1:9502');
+    ws.onopen = function (e) {
+        ws.send('pfinal'); // 发消息
+        alert("链接成功")
+    };
+    ws.onmessage = function (e) {
+        var messages = e.data;
+        console.log(e);
+        $("#msg").text(messages)
+    };
+
+</script>
+</body>
+</html>
