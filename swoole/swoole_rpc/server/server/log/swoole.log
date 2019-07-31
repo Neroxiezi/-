@@ -1,0 +1,84 @@
+[2019-07-31 06:12:02 #37.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'OnStart' not found in /srv/www/server/core/Core.php:102
+Stack trace:
+#0 [internal function]: Core::{closure}(Object(Swoole\WebSocket\Server))
+#1 /srv/www/server/core/Core.php(204): Swoole\Http\Server->start()
+#2 /srv/www/server/core/Core.php(78): Core::workerStart()
+#3 /srv/www/server/core/Core.php(30): Core::parseCommand()
+#4 /srv/www/index.php(23): Core::run()
+#5 {main}
+  thrown in /srv/www/server/core/Core.php on line 102.
+[2019-07-31 06:12:02 ^42.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'OnWorkerStart' not found in /srv/www/server/core/Core.php:116
+Stack trace:
+#0 [internal function]: Core::{closure}(Object(Swoole\WebSocket\Server), 3)
+#1 /srv/www/server/core/Core.php(204): Swoole\Http\Server->start()
+#2 /srv/www/server/core/Core.php(78): Core::workerStart()
+#3 /srv/www/server/core/Core.php(30): Core::parseCommand()
+#4 /srv/www/index.php(23): Core::run()
+#5 {main}
+  thrown in /srv/www/server/core/Core.php on line 116.
+[2019-07-31 06:12:02 ^43.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'OnWorkerStart' not found in /srv/www/server/core/Core.php:116
+Stack trace:
+#0 [internal function]: Core::{closure}(Object(Swoole\WebSocket\Server), 4)
+#1 /srv/www/server/core/Core.php(204): Swoole\Http\Server->start()
+#2 /srv/www/server/core/Core.php(78): Core::workerStart()
+#3 /srv/www/server/core/Core.php(30): Core::parseCommand()
+#4 /srv/www/index.php(23): Core::run()
+#5 {main}
+  thrown in /srv/www/server/core/Core.php on line 116.
+[2019-07-31 06:12:02 $38.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'OnManagerStart' not found in /srv/www/server/core/Core.php:109
+Stack trace:
+#0 [internal function]: Core::{closure}(Object(Swoole\WebSocket\Server))
+#1 /srv/www/server/core/Core.php(204): Swoole\Http\Server->start()
+#2 /srv/www/server/core/Core.php(78): Core::workerStart()
+#3 /srv/www/server/core/Core.php(30): Core::parseCommand()
+#4 /srv/www/index.php(23): Core::run()
+#5 {main}
+  thrown in /srv/www/server/core/Core.php on line 109.
+[2019-07-31 06:12:02 *48.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'OnWorkerStart' not found in /srv/www/server/core/Core.php:116
+Stack trace:
+#0 {main}
+  thrown in /srv/www/server/core/Core.php on line 116.
+[2019-07-31 06:12:02 ^45.6]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'OnWorkerStart' not found in /srv/www/server/core/Core.php:116
+Stack trace:
+#0 [internal function]: Core::{closure}(Object(Swoole\WebSocket\Server), 6)
+#1 /srv/www/server/core/Core.php(204): Swoole\Http\Server->start()
+#2 /srv/www/server/core/Core.php(78): Core::workerStart()
+#3 /srv/www/server/core/Core.php(30): Core::parseCommand()
+#4 /srv/www/index.php(23): Core::run()
+#5 {main}
+  thrown in /srv/www/server/core/Core.php on line 116.
+[2019-07-31 06:12:02 ^44.5]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'OnWorkerStart' not found in /srv/www/server/core/Core.php:116
+Stack trace:
+#0 [internal function]: Core::{closure}(Object(Swoole\WebSocket\Server), 5)
+#1 /srv/www/server/core/Core.php(204): Swoole\Http\Server->start()
+#2 /srv/www/server/core/Core.php(78): Core::workerStart()
+#3 /srv/www/server/core/Core.php(30): Core::parseCommand()
+#4 /srv/www/index.php(23): Core::run()
+#5 {main}
+  thrown in /srv/www/server/core/Core.php on line 116.
+[2019-07-31 06:12:02 *47.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'OnWorkerStart' not found in /srv/www/server/core/Core.php:116
+Stack trace:
+#0 {main}
+  thrown in /srv/www/server/core/Core.php on line 116.
+[2019-07-31 06:12:02 *46.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'OnWorkerStart' not found in /srv/www/server/core/Core.php:116
+Stack trace:
+#0 {main}
+  thrown in /srv/www/server/core/Core.php on line 116.
+[2019-07-31 06:14:00 #49.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'OnStart' not found in /srv/www/server/core/Core.php:102
+Stack trace:
+#0 [internal function]: Core::{closure}(Object(Swoole\WebSocket\Server))
+#1 /srv/www/server/core/Core.php(204): Swoole\Http\Server->start()
+#2 /srv/www/server/core/Core.php(78): Core::workerStart()
+#3 /srv/www/server/core/Core.php(30): Core::parseCommand()
+#4 /srv/www/index.php(23): Core::run()
+#5 {main}
+  thrown in /srv/www/server/core/Core.php on line 102.
+[2019-07-31 06:14:00 $50.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'OnManagerStart' not found in /srv/www/server/core/Core.php:109
+Stack trace:
+#0 [internal function]: Core::{closure}(Object(Swoole\WebSocket\Server))
+#1 /srv/www/server/core/Core.php(204): Swoole\Http\Server->start()
+#2 /srv/www/server/core/Core.php(78): Core::workerStart()
+#3 /srv/www/server/core/Core.php(30): Core::parseCommand()
+#4 /srv/www/index.php(23): Core::run()
+#5 {main}
+  thrown in /srv/www/server/core/Core.php on line 109.

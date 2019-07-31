@@ -1,0 +1,84 @@
+[2019-07-31 06:12:02] [1] 文件：/srv/www/server/core/Core.php 中第 102 行：Uncaught Error: Class 'OnStart' not found in /srv/www/server/core/Core.php:102
+Stack trace:
+#0 [internal function]: Core::{closure}(Object(Swoole\WebSocket\Server))
+#1 /srv/www/server/core/Core.php(204): Swoole\Http\Server->start()
+#2 /srv/www/server/core/Core.php(78): Core::workerStart()
+#3 /srv/www/server/core/Core.php(30): Core::parseCommand()
+#4 /srv/www/index.php(23): Core::run()
+#5 {main}
+  thrown 
+[2019-07-31 06:12:02] [1] 文件：/srv/www/server/core/Core.php 中第 116 行：Uncaught Error: Class 'OnWorkerStart' not found in /srv/www/server/core/Core.php:116
+Stack trace:
+#0 [internal function]: Core::{closure}(Object(Swoole\WebSocket\Server), 3)
+#1 /srv/www/server/core/Core.php(204): Swoole\Http\Server->start()
+#2 /srv/www/server/core/Core.php(78): Core::workerStart()
+#3 /srv/www/server/core/Core.php(30): Core::parseCommand()
+#4 /srv/www/index.php(23): Core::run()
+#5 {main}
+  thrown 
+[2019-07-31 06:12:02] [1] 文件：/srv/www/server/core/Core.php 中第 116 行：Uncaught Error: Class 'OnWorkerStart' not found in /srv/www/server/core/Core.php:116
+Stack trace:
+#0 [internal function]: Core::{closure}(Object(Swoole\WebSocket\Server), 4)
+#1 /srv/www/server/core/Core.php(204): Swoole\Http\Server->start()
+#2 /srv/www/server/core/Core.php(78): Core::workerStart()
+#3 /srv/www/server/core/Core.php(30): Core::parseCommand()
+#4 /srv/www/index.php(23): Core::run()
+#5 {main}
+  thrown 
+[2019-07-31 06:12:02] [1] 文件：/srv/www/server/core/Core.php 中第 109 行：Uncaught Error: Class 'OnManagerStart' not found in /srv/www/server/core/Core.php:109
+Stack trace:
+#0 [internal function]: Core::{closure}(Object(Swoole\WebSocket\Server))
+#1 /srv/www/server/core/Core.php(204): Swoole\Http\Server->start()
+#2 /srv/www/server/core/Core.php(78): Core::workerStart()
+#3 /srv/www/server/core/Core.php(30): Core::parseCommand()
+#4 /srv/www/index.php(23): Core::run()
+#5 {main}
+  thrown 
+[2019-07-31 06:12:02] [1] 文件：/srv/www/server/core/Core.php 中第 116 行：Uncaught Error: Class 'OnWorkerStart' not found in /srv/www/server/core/Core.php:116
+Stack trace:
+#0 {main}
+  thrown 
+[2019-07-31 06:12:02] [1] 文件：/srv/www/server/core/Core.php 中第 116 行：Uncaught Error: Class 'OnWorkerStart' not found in /srv/www/server/core/Core.php:116
+Stack trace:
+#0 [internal function]: Core::{closure}(Object(Swoole\WebSocket\Server), 6)
+#1 /srv/www/server/core/Core.php(204): Swoole\Http\Server->start()
+#2 /srv/www/server/core/Core.php(78): Core::workerStart()
+#3 /srv/www/server/core/Core.php(30): Core::parseCommand()
+#4 /srv/www/index.php(23): Core::run()
+#5 {main}
+  thrown 
+[2019-07-31 06:12:02] [1] 文件：/srv/www/server/core/Core.php 中第 116 行：Uncaught Error: Class 'OnWorkerStart' not found in /srv/www/server/core/Core.php:116
+Stack trace:
+#0 [internal function]: Core::{closure}(Object(Swoole\WebSocket\Server), 5)
+#1 /srv/www/server/core/Core.php(204): Swoole\Http\Server->start()
+#2 /srv/www/server/core/Core.php(78): Core::workerStart()
+#3 /srv/www/server/core/Core.php(30): Core::parseCommand()
+#4 /srv/www/index.php(23): Core::run()
+#5 {main}
+  thrown 
+[2019-07-31 06:12:02] [1] 文件：/srv/www/server/core/Core.php 中第 116 行：Uncaught Error: Class 'OnWorkerStart' not found in /srv/www/server/core/Core.php:116
+Stack trace:
+#0 {main}
+  thrown 
+[2019-07-31 06:12:02] [1] 文件：/srv/www/server/core/Core.php 中第 116 行：Uncaught Error: Class 'OnWorkerStart' not found in /srv/www/server/core/Core.php:116
+Stack trace:
+#0 {main}
+  thrown 
+[2019-07-31 06:14:00] [1] 文件：/srv/www/server/core/Core.php 中第 102 行：Uncaught Error: Class 'OnStart' not found in /srv/www/server/core/Core.php:102
+Stack trace:
+#0 [internal function]: Core::{closure}(Object(Swoole\WebSocket\Server))
+#1 /srv/www/server/core/Core.php(204): Swoole\Http\Server->start()
+#2 /srv/www/server/core/Core.php(78): Core::workerStart()
+#3 /srv/www/server/core/Core.php(30): Core::parseCommand()
+#4 /srv/www/index.php(23): Core::run()
+#5 {main}
+  thrown 
+[2019-07-31 06:14:00] [1] 文件：/srv/www/server/core/Core.php 中第 109 行：Uncaught Error: Class 'OnManagerStart' not found in /srv/www/server/core/Core.php:109
+Stack trace:
+#0 [internal function]: Core::{closure}(Object(Swoole\WebSocket\Server))
+#1 /srv/www/server/core/Core.php(204): Swoole\Http\Server->start()
+#2 /srv/www/server/core/Core.php(78): Core::workerStart()
+#3 /srv/www/server/core/Core.php(30): Core::parseCommand()
+#4 /srv/www/index.php(23): Core::run()
+#5 {main}
+  thrown 
