@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0b8d1e5-12be-446a-8a30-5a6b6a263b2e" name="Default" comment="更新">
-      <change afterPath="$PROJECT_DIR$/docs/mysql/mysql_miscellaneous.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,16 +29,6 @@
     </option>
     <expand />
     <select />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>store_coupon</find>
-      <find>s</find>
-      <find>chrome</find>
-      <find>requirepass</find>
-      <find>chrom</find>
-      <find>getKey</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,7 +67,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/laravel_news-redis" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -177,7 +166,7 @@
       <workItem from="1562568065401" duration="3052000" />
       <workItem from="1562647684427" duration="3590000" />
       <workItem from="1562835926982" duration="337000" />
-      <workItem from="1566440547880" duration="8232000" />
+      <workItem from="1566440547880" duration="10623000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1554971846970</created>
