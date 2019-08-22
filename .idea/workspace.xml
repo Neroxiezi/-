@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/code/two_linked.php" line="40" mnemonic="4" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b8d1e5-12be-446a-8a30-5a6b6a263b2e" name="Default" comment="更新">
-      <change beforePath="$PROJECT_DIR$/laravel-rpc/comment-module/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/laravel-rpc/comment-module/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seckill/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seckill/db.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seckill/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seckill/watch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +16,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/php-jwt/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -30,19 +34,6 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/laravel-rpc/comment-module/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>store_coupon</find>
@@ -56,62 +47,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/code/Concurrent/index.php" />
-        <option value="$PROJECT_DIR$/code/Publish&amp;&amp;Subscribe/subscribe.php" />
-        <option value="$PROJECT_DIR$/code/Publish&amp;&amp;Subscribe/publish.php" />
-        <option value="$PROJECT_DIR$/code/ranking_list.php" />
-        <option value="$PROJECT_DIR$/code/two_linked.php" />
-        <option value="$PROJECT_DIR$/code/pessimistic_lock.php" />
-        <option value="$PROJECT_DIR$/code/optimistic_lock.php" />
-        <option value="$PROJECT_DIR$/code/restricted_request.php" />
-        <option value="$PROJECT_DIR$/code/rank.php" />
-        <option value="$PROJECT_DIR$/code/simple_counter.php" />
-        <option value="$PROJECT_DIR$/code/baiduspider.php" />
-        <option value="$PROJECT_DIR$/code/data_filtering.php" />
-        <option value="$PROJECT_DIR$/code/statistical_user_number.php" />
-        <option value="$PROJECT_DIR$/code/rush_to_buy.php" />
-        <option value="$PROJECT_DIR$/laytable/data.json" />
-        <option value="$PROJECT_DIR$/laytable/data.php" />
-        <option value="$PROJECT_DIR$/laytable/index.php" />
-        <option value="$PROJECT_DIR$/code/linked.php" />
-        <option value="$PROJECT_DIR$/Swoole/swoole-example/client.php" />
-        <option value="$USER_HOME$/Documents/Tencent Files/1370288056/FileRecv/YD-208 天使试用数据可视化需求文档/index.html" />
-        <option value="$PROJECT_DIR$/doc/composer.md" />
-        <option value="$PROJECT_DIR$/doc/xampp.md" />
-        <option value="$PROJECT_DIR$/doc/wamp.md" />
-        <option value="$PROJECT_DIR$/doc/WakaTime.md" />
-        <option value="$PROJECT_DIR$/doc/visualStudioCode.md" />
-        <option value="$PROJECT_DIR$/doc/sublime.md" />
-        <option value="$PROJECT_DIR$/doc/phpstorm.md" />
-        <option value="$PROJECT_DIR$/doc/miniProgram.md" />
-        <option value="$PROJECT_DIR$/doc/Homestead.md" />
-        <option value="$PROJECT_DIR$/doc/Git.md" />
-        <option value="$PROJECT_DIR$/doc/php7/基础知识.md" />
-        <option value="$PROJECT_DIR$/doc/PHP-Microservices.md" />
-        <option value="$PROJECT_DIR$/php-jwt/api/api.php" />
-        <option value="$PROJECT_DIR$/php-jwt/api/index.php" />
-        <option value="$PROJECT_DIR$/php-jwt/composer.json" />
-        <option value="$PROJECT_DIR$/php-jwt/index.php" />
-        <option value="$PROJECT_DIR$/php-jwt/Api/api.php" />
-        <option value="$PROJECT_DIR$/laravel-jwt/jwt/app/User.php" />
-        <option value="$PROJECT_DIR$/laravel-jwt/jwt/config/app.php" />
-        <option value="$PROJECT_DIR$/laravel-jwt/jwt/config/auth.php" />
-        <option value="$PROJECT_DIR$/laravel-jwt/jwt/routes/api.php" />
-        <option value="$PROJECT_DIR$/laravel-jwt/jwt/.env" />
-        <option value="$PROJECT_DIR$/laravel-jwt/jwt/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/laravel-jwt/jwt/vendor/tymon/jwt-auth/src/Manager.php" />
-        <option value="$PROJECT_DIR$/laravel-jwt/jwt/vendor/tymon/jwt-auth/src/Http/Parser/Parser.php" />
-        <option value="$PROJECT_DIR$/laravel-jwt/jwt/app/Http/Controllers/AuthController.php" />
-        <option value="$PROJECT_DIR$/laravel-jwt/jwt/vendor/tymon/jwt-auth/src/JWT.php" />
-        <option value="$PROJECT_DIR$/php_file_cache/a.php" />
-        <option value="$PROJECT_DIR$/php_file_cache/index.php" />
-        <option value="$PROJECT_DIR$/docs/ab/Ab.md" />
-        <option value="$PROJECT_DIR$/laravel-rpc/comment-module/routes/web.php" />
-      </list>
-    </option>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/seckill/db.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/seckill/watch.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>false</service-enabled>
@@ -135,56 +73,20 @@
     <option name="width" value="1936" />
     <option name="height" value="1096" />
   </component>
+  <component name="ProjectId" id="1PlEzY8TAXJJnHmYSJ7KpMnlsED" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <autoscrollFromSource ProjectPane="true" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeSnippet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeSnippet" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel-rpc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeSnippet" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel-rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="comment-module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeSnippet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeSnippet" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel-rpc" type="462c0819:PsiDirectoryNode" />
-              <item name="comment-module" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/laravel-rpc/comment-module" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -204,6 +106,27 @@
           <option name="name" value="StatusDashboardGroupingRule" />
         </RuleState>
       </list>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.15451577" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4eb197eb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4eb197eb" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@465e1cc3" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
     </option>
   </component>
   <component name="SvnConfiguration">
@@ -257,6 +180,7 @@
       <workItem from="1562568065401" duration="3052000" />
       <workItem from="1562647684427" duration="3590000" />
       <workItem from="1562835926982" duration="337000" />
+      <workItem from="1566440547880" duration="4695000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1554971846970</created>
@@ -366,37 +290,19 @@
     <option name="localTasksCounter" value="16" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123226000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25159913" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297975" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32911393" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6432681" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32911393" />
-      <window_info anchor="bottom" id="Database Console" order="10" weight="0.32911393" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32911393" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新双向链表" />
@@ -404,286 +310,5 @@
     <MESSAGE value="更新PHP实现负载均衡的加权轮询" />
     <MESSAGE value="更新" />
     <option name="LAST_COMMIT_MESSAGE" value="更新" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/code/statistical_user_number.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/article_fever.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/linked.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swoole/swoole-example/client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laytable/data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laytable/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="350" column="23" selection-start-line="350" selection-start-column="23" selection-end-line="350" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/xampp.md" />
-    <entry file="file://$PROJECT_DIR$/doc/wamp.md" />
-    <entry file="file://$PROJECT_DIR$/doc/WakaTime.md" />
-    <entry file="file://$PROJECT_DIR$/doc/visualStudioCode.md" />
-    <entry file="file://$PROJECT_DIR$/doc/sublime.md" />
-    <entry file="file://$PROJECT_DIR$/doc/PHP-Microservices.md" />
-    <entry file="file://$PROJECT_DIR$/doc/php7/基础知识.md" />
-    <entry file="file://$PROJECT_DIR$/doc/composer.md" />
-    <entry file="file://$PROJECT_DIR$/doc/Git.md" />
-    <entry file="file://$PROJECT_DIR$/doc/Homestead.md" />
-    <entry file="file://$PROJECT_DIR$/doc/Laravel.md" />
-    <entry file="file://$PROJECT_DIR$/doc/miniProgram.md" />
-    <entry file="file://$PROJECT_DIR$/doc/package.md" />
-    <entry file="file://$PROJECT_DIR$/doc/phpstorm.md" />
-    <entry file="file://$PROJECT_DIR$/php-jwt/vendor/lcobucci/jwt/src/Builder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-972">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php-jwt/Api/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208">
-          <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-          <folding>
-            <element signature="e#906#931#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php-jwt/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php-jwt/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-jwt/jwt/vendor/tymon/jwt-auth/src/Support/CustomClaims.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-jwt/jwt/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding>
-            <element signature="e#33#71#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-jwt/jwt/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-jwt/jwt/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3068">
-          <caret line="228" column="24" selection-start-line="228" selection-start-column="24" selection-end-line="228" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-jwt/jwt/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="1395" column="30" selection-start-line="1395" selection-start-column="22" selection-end-line="1395" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/code/php_jwt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="55" column="28" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-jwt/jwt/config/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-jwt/jwt/config/jwt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4602" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-jwt/jwt/vendor/tymon/jwt-auth/src/Contracts/Providers/Storage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-366">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-jwt/jwt/vendor/tymon/jwt-auth/src/Manager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3824">
-          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-jwt/jwt/vendor/laravel/framework/src/Illuminate/Contracts/Auth/StatefulGuard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-jwt/jwt/vendor/tymon/jwt-auth/src/Contracts/JWTSubject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-jwt/jwt/vendor/tymon/jwt-auth/src/JWT.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-677">
-          <caret line="279" column="5" lean-forward="true" selection-start-line="279" selection-start-column="5" selection-end-line="279" selection-end-column="5" />
-          <folding>
-            <element signature="e#247#274#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-jwt/jwt/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="307" column="20" selection-start-line="307" selection-start-column="20" selection-end-line="307" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-jwt/jwt/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-jwt/jwt/vendor/tymon/jwt-auth/src/JWTAuth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="53" column="28" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-jwt/jwt/vendor/tymon/jwt-auth/src/Http/Parser/Parser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-jwt/jwt/vendor/tymon/jwt-auth/src/Blacklist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="53" column="36" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-jwt/jwt/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-jwt/jwt/app/Http/Controllers/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php_file_cache/a.cache.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/houdunren-code-master/code/video/php7/helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/houdunren-code-master/code/video/php7/86/1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php_file_cache/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php_file_cache/a.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/ab/Ab.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="583">
-            <caret line="49" column="83" selection-start-line="49" selection-start-column="83" selection-end-line="49" selection-end-column="83" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel-rpc/comment-module/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
