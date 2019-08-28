@@ -1,0 +1,13 @@
+{
+    "name": "pfinal/workerman",
+    "authors": [
+        {
+            "name": "南丞",
+            "email": "lampxiezi@163.com"
+        }
+    ],
+    "require": {
+        "workerman/workerman": "^3.5",
+        "workerman/gateway-worker": "^3.0"
+    }
+}

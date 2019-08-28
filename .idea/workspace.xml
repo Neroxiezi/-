@@ -67,7 +67,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/laravel_news-redis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/workerman" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -167,6 +167,7 @@
       <workItem from="1562647684427" duration="3590000" />
       <workItem from="1562835926982" duration="337000" />
       <workItem from="1566440547880" duration="10623000" />
+      <workItem from="1566957508629" duration="261000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1554971846970</created>
@@ -284,7 +285,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
