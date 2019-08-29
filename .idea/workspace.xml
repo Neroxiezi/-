@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0b8d1e5-12be-446a-8a30-5a6b6a263b2e" name="Default" comment="更新">
+      <change afterPath="$PROJECT_DIR$/code/redis_queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php_redis_queue/RedisQueue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php_redis_queue/add_task.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php_redis_queue/handle_task.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Redis/.idea/Redis.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Redis/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Redis/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Redis/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Redis/redis_demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Redis/redis_demo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seckill/.user.ini" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +46,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/seckill/db.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/seckill/watch.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/php_redis_queue/RedisQueue.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>false</service-enabled>
@@ -67,7 +78,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/workerman" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -168,6 +179,11 @@
       <workItem from="1562835926982" duration="337000" />
       <workItem from="1566440547880" duration="10623000" />
       <workItem from="1566957508629" duration="261000" />
+      <workItem from="1566969933251" duration="621000" />
+      <workItem from="1566971234945" duration="6284000" />
+      <workItem from="1567046925706" duration="2071000" />
+      <workItem from="1567059220148" duration="289000" />
+      <workItem from="1567060020268" duration="7242000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1554971846970</created>
