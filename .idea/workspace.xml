@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0b8d1e5-12be-446a-8a30-5a6b6a263b2e" name="Default" comment="更新">
-      <change afterPath="$PROJECT_DIR$/Redis/redis_link.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Redis/redis_set.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Redis/redis_cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Redis/redis_string.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,6 +39,7 @@
     <setting file="file://$PROJECT_DIR$/seckill/db.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/seckill/watch.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/php_redis_queue/RedisQueue.php" root0="SKIP_INSPECTION" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Redis/redis_cart.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>false</service-enabled>
@@ -57,7 +58,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1PlEzY8TAXJJnHmYSJ7KpMnlsED" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -171,7 +174,7 @@
       <workItem from="1567059220148" duration="289000" />
       <workItem from="1567060020268" duration="8462000" />
       <workItem from="1567132278756" duration="4730000" />
-      <workItem from="1567391322887" duration="2986000" />
+      <workItem from="1567391322887" duration="12940000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1554971846970</created>
