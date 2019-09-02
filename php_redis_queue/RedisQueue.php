@@ -89,7 +89,7 @@
 
 		public function getIndexListName()
 		{
-			return self::PREFIX.':IL'.$this->queueName;
+			return self::PREFIX.':IL:'.$this->queueName;
 		}
 
 		public function getBlockedListName()
@@ -106,7 +106,7 @@
 		public function getBlockedTimesHashName()
 		{
 			// blocked times hash
-			return self::PREFIX.':BTH'.$this->queueName;
+			return self::PREFIX.':BTH:'.$this->queueName;
 		}
 
 		public function getDataKey($data)
