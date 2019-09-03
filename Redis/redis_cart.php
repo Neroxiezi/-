@@ -106,18 +106,18 @@
 			}
 		}
 
-		
+
 	}
 
 
 	$cart = new CartService(2);
-	try {
-		$cart->goods_del(5);
-	} catch (\Exception $e) {
-		print_r($e->getMessage());
-	}
-	//$res = $cart->empty_cart();
-	//print_r($res);
+//	try {
+//		$cart->goods_del(5);
+//	} catch (\Exception $e) {
+//		print_r($e->getMessage());
+//	}
+	$res = $cart->empty_cart();
+	print_r($res);
 	//	try {
 	//		$cart->add_to_cart(5, 1);
 	//	} catch (\Exception $e) {
