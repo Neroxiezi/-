@@ -1,0 +1,12 @@
+{
+    "name": "pfinal/xunsearch",
+    "authors": [
+        {
+            "name": "南丞",
+            "email": "lampxiezi@163.com"
+        }
+    ],
+    "require": {
+        "hightman/xunsearch": "^1.4"
+    }
+}

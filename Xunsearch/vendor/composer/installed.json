@@ -1,0 +1,68 @@
+[
+    {
+        "name": "hightman/xunsearch",
+        "version": "1.4.13",
+        "version_normalized": "1.4.13.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hightman/xs-sdk-php.git",
+            "reference": "6781b1b92bc7cb3a507510cf31bcede8668e201a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/hightman/xs-sdk-php/zipball/6781b1b92bc7cb3a507510cf31bcede8668e201a",
+            "reference": "6781b1b92bc7cb3a507510cf31bcede8668e201a",
+            "shasum": "",
+            "mirrors": [
+                {
+                    "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                    "preferred": true
+                }
+            ]
+        },
+        "require": {
+            "ext-mbstring": "*",
+            "lib-pcre": "*",
+            "php": ">=5.3.0"
+        },
+        "time": "2019-01-04T09:15:41+00:00",
+        "bin": [
+            "util/xs"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "lib/",
+                "wrapper/yii-ext/"
+            ],
+            "psr-4": {
+                "hightman\\xunsearch\\": "wrapper/yii2-ext/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0+"
+        ],
+        "authors": [
+            {
+                "name": "hightman",
+                "role": "Founder and project leader",
+                "email": "hightman@twomice.net"
+            }
+        ],
+        "description": "xunsearch php sdk, include yii, yii2 supports",
+        "homepage": "http://www.xunsearch.com/",
+        "keywords": [
+            "search engine",
+            "xunsearch",
+            "yii",
+            "yii2"
+        ]
+    }
+]
