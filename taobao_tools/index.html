@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>允典爬虫工具</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body style="background-color:#cccc">
+<div class="container">
+    <div class="card text-white bg-primary">
+        <div class="card-body">
+            <h4 class="card-title">第一步【允典爬虫CSV辅助工具】</h4>
+            <p class="card-text">允典爬虫CSV辅助工具</p>
+        </div>
+    </div>
+    <div class="card border-light">
+        <div class="card-body">
+            <h4 class="card-title">爬虫结果csv文件上传</h4>
+            <div class="card-text">
+                <div class="custom-file">
+                    <input type="file" class="form-control-file" name="" id="uploadFile" placeholder=""
+                           aria-describedby="fileHelpId">
+                    <small id="fileHelpId" class="form-text text-muted">上传线上爬虫结果文件</small>
+                </div>
+                <button type="submit" id="submit" class="btn btn-primary">上传</button>
+            </div>
+        </div>
+    </div>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            <span class="sr-only">Close</span>
+        </button>
+        <strong>【错误啦】 请选择文件</strong>
+    </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.0.min.js"
+        integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script>
+    uploadUrl = 'action.php';
+    var error_alert = $('.alert').clone();
+    $('.alert').alert('close')
+    $("#submit").on("click", function () {
+        if ($("#uploadFile")[0].files[0] == undefined) {
+            $('.container').append(error_alert)
+        } else {
+            $('.alert').alert('close')
+            var formData = new FormData();
+            formData.append("file", $("#uploadFile")[0].files[0]);//append()里面的第一个参数file对应permission/upload里面的参数file
+            formData.append('step', 'upload_csv');
+            $.ajax({
+                type: "post",
+                async: true,  //这里要设置异步上传，才能成功调用myXhr.upload.addEventListener('progress',function(e){}),progress的回掉函数
+                Accept: 'text/html;charset=UTF-8',
+                data: formData,
+                contentType: "multipart/form-data",
+                url: uploadUrl,
+                processData: false, // 告诉jQuery不要去处理发送的数据
+                contentType: false, // 告诉jQuery不要去设置Content-Type请求头
+                xhr: function () {
+                    myXhr = $.ajaxSettings.xhr();
+                    if (myXhr.upload) { // check if upload property exists
+                        myXhr.upload.addEventListener('progress', function (e) {
+                            var loaded = e.loaded;                  //已经上传大小情况
+                            var total = e.total;                      //附件总大小
+                            var percent = Math.floor(100 * loaded / total) + "%";     //已经上传的百分比
+                            console.log("已经上传了：" + percent);
+                            $("#processBar").css("width", percent);
+                        }, false); // for handling the progress of the upload
+                    }
+                    return myXhr;
+                },
+                success: function (data) {
+                    console.log("上传成功!!!!");
+                },
+                error: function () {
+                    alert("上传失败！");
+                }
+            });
+        }
+    });
+</script>
+</body>
+</html>
