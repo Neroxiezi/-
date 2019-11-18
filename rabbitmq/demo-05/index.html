@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<div style="padding: 50px 100px">
+    <button class="btn btn-success" type="button">
+        待出票 <span class="badge" id="notout">0</span>
+    </button>
+    <button class="btn btn-warning" type="button">
+        已出票<span class="badge" id="out">0</span>
+    </button>
+    <button class="btn btn-danger" type="button">
+        已退票 <span class="badge" id="break">0</span>
+    </button>
+    <button class="btn btn-primary" type="button">
+        已取消 <span class="badge" id="cancel">0</span>
+    </button>
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th>产品</th>
+            <th>日期</th>
+            <th>状态</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>PEK-CKG</td>
+            <td>23/11/2017</td>
+            <td class="status">待出票</td>
+            <td>
+                <button class="btn btn-primary exStatus" type="button">出票</button>
+            </td>
+        </tr>
+        <tr>
+            <td>CAN-CKG</td>
+            <td>20/10/2017</td>
+            <td class="status">待出票</td>
+            <td>
+                <button class="btn btn-primary exStatus" type="button">出票</button>
+            </td>
+        </tr>
+        <tr>
+            <td>CAN-CKG</td>
+            <td>20/10/2017</td>
+            <td class="status">待出票</td>
+            <td>
+                <button class="btn btn-primary exStatus" type="button">出票</button>
+            </td>
+        </tr>
+        <tr>
+            <td>CUT-PEK</td>
+            <td>10/11/2017</td>
+            <td class="status">已出票</td>
+            <td>
+                <button class="btn btn-warning exStatus" type="button">退票</button>
+            </td>
+        </tr>
+        <tr>
+            <td>PEK-CKG</td>
+            <td>23/11/2017</td>
+            <td class="status">待支付</td>
+            <td>
+                <button class="btn btn-primary exStatus" type="button">取消</button>
+            </td>
+        </tr>
+        <tr>
+            <td>PEK-CKG</td>
+            <td>23/11/2017</td>
+            <td class="status">待支付</td>
+            <td>
+                <button class="btn btn-primary exStatus" type="button">取消</button>
+            </td>
+        </tr>
+        <tr>
+            <td>SHA-PEK</td>
+            <td>20/10/2017</td>
+            <td class="status">已退票</td>
+            <td></td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/sockjs-client/1.3.0/sockjs.min.js"></script>
+<script src="https://cdn.bootcss.com/stomp.js/2.3.3/stomp.min.js"></script>
+<script>
+
+    var username = 'guest';
+    var password = 'guest';
+    var ws = new WebSocket('ws://localhost:15674/ws');
+
+    // Init Client
+    var client = Stomp.over(ws);
+
+    // SockJS does not support heart-beat: disable heart-beats
+    client.heartbeat.outgoing = 0;
+    client.heartbeat.incoming = 0;
+
+    // Declare on_connect
+    var on_connect = function (x) {
+        // //订阅模式
+        client.subscribe("/exchange/amq.fanout/rabbitmq_routingkey",
+            function (d) {
+                countOut(d.body);
+            });
+        //订阅模式
+        client.subscribe("/exchange/amq.fanout/rabbitmq_routingkey",
+            function (d) {
+                countBreak(d.body);
+            });
+        //订阅模式
+        client.subscribe("/exchange/amq.fanout/rabbitmq_routingkey",
+            function (d) {
+                countNotout(d.body);
+            });
+
+        //Direct模式
+        client.subscribe("/exchange/amq.direct/rabbitmq_orderCancel",
+            function (d) {
+                countCancel(d.body);
+            },{
+					'x-queue-name': 'goods_cancel',
+					'durable': true
+				});
+    };
+
+    // 定义连接失败回调函数
+    var on_error = function (error) {
+        console.log(error.headers.message);
+    };
+
+    // Conect to RabbitMQ
+    client.connect(username, password, on_connect, on_error, '/');
+
+    var sendMQ = function (data) {
+        client.send('/exchange/amq.fanout/rabbitmq_routingkey', {"content-type": "text/plain"}, data);
+    };
+
+    var sendKeyMQ = function (data) {
+        client.send('/exchange/amq.direct/rabbitmq_orderCancel', {"content-type": "text/plain"}, data);
+    };
+
+    var countNotout = function (data) {
+        //真实业务可能是ajax向后台请求数据
+        $('#notout').html($("td:contains('待出票')").length);
+    };
+
+    var countOut = function (data) {
+        //真实业务可能是ajax向后台请求数据
+        $('#out').html($("td:contains('已出票')").length);
+    };
+
+    var countBreak = function (data) {
+        //真实业务可能是ajax向后台请求数据
+        $('#break').html($("td:contains('已退票')").length);
+    };
+
+
+    var countCancel = function (data) {
+        //真实业务可能是ajax向后台请求数据
+        $('#cancel').html($("td:contains('已取消')").length);
+    };
+
+    $(document).ready(function () {
+        countNotout();
+        countOut();
+        countBreak();
+        countCancel();
+    });
+
+    //事件绑定
+    $(".exStatus").click(function () {
+        if ('出票' === $(this).html()) {
+            $(this).removeClass().addClass('btn btn-warning exStatus');
+            $(this).parents('tr').find(".status").html('已出票');
+            $(this).html('退票');
+            //发送通知
+            sendMQ("doOut");
+            return;
+        }
+
+        if ('退票' === $(this).html()) {
+            $(this).parents('tr').find(".status").html('已退票');
+            $(this).remove();
+            //发送通知
+            sendMQ("doBreak");
+            return;
+        }
+
+        if ('取消' === $(this).html()) {
+            $(this).parents('tr').find(".status").html('已取消');
+            $(this).remove();
+            //发送通知
+            sendKeyMQ("doCancel");
+            return;
+        }
+
+    });
+
+
+</script>
+</body>
+</html>
